@@ -24,96 +24,139 @@ author:
     - icon: fa brands x-twitter
       text: twitter
       url: https://twitter.com/example
-format: awesomecv-typst
+style:
+  color-accent: 516db0  
+format:
+  awesomecv-typst:
+    keep-typ: true
+execute: 
+  echo: false
+  warning: false
+filters:
+  - section-bibliographies
+citeproc: false
+bibliography: Paperpile.bib
 ---
+
+```{r}
+#| echo: false
+
+library(typstcv)
+library(vitae)
+library(tidyverse)
+
+include_refs <- TRUE
+```
 
 
 ## Education
 
-```{=typst}
-#resume-entry(
-  title: "Ph.D. in Physics",
-  location: "Zürich, Switzerland",
-  date: "1905",
-  description: "University of Zürich",
-)
-#resume-entry(
-  title: "Master of Science",
-  location: "Zürich, Switzerland",
-  date: "1896 - 1900",
-  description: "ETH",
-)
+```{r}
+#| output: asis
+
+structure(list(degree = c("Bachelor in Economics", "Master in Economics and Finance", "PhD. Candidate in Economics"), start = structure(c(16161, 18140, 18871), class = "Date"), end = structure(c(17956, 18808, NA), class = "Date"), 
+               institution = c("The University of Tokyo", "CEMFI", "CEMFI"
+               ), location = c("Tokyo, Japan", "Madrid, Spain", "Madrid, Spain"
+               ), detail = c("", "", "")), class = "data.frame", row.names = c(NA, 
+                                                                               -3L)) |>
+  format_date(end = "end", sort_by = "start") |>
+  
+  resume_entry(title = "degree",
+               description = "institution")
+
 ```
+
 
 ## Publications
 
-```{=typst}
-#resume-entry(
-  title: "On the Electrodynamics of Moving Bodies",
-  location: " Annalen der Physik",
-  date: "September 1905"
-)
-#resume-entry(
-  title: "On the motion of small particles suspended in liquids at rest required by the molecular-kinetic theory of heat",
-  location: " Annalen der Physik",
-  date: "July 1905"
-)
+A full list of my published work can be found at: \href{https://www.ncbi.nlm.nih.gov/myncbi/kevin.middleton.1/bibliography/public/}{\color[HTML]{000090}{NIH PubMed}}
+
+
+### Dissertation
+
+```{r}
+# Load bib file
+bib_entries <- bibliography_entries("Paperpile.bib")
+```
+
+```{r doctoral-dissertation}
+#| output: asis
+
+if (include_refs) {
+  bib_entries |>
+    filter(str_detect(keyword, "CV/Dissertation"))
+}
 ```
 
 
-## Work Experience
+### Refereed Research Papers
 
-```{=typst}
-#resume-entry(
-  title: "Associate Professor",
-  location: "Zürich, Switzerland",
-  date: "1909 - 1911",
-  description: "University of Zürich"
-)
-
-#resume-entry(
-  title: "Junior Professor",
-  location: "Bern, Switzerland",
-  date: "1908 - 1909",
-  description: "University of Bern"
-)
-
-#resume-entry(
-  title: "Technical Assistant",
-  location: "Bern, Switzerland",
-  date: "1902 - 1908",
-  description: "Federal Patent Office"
-)
+```{r research-papers, eval=TRUE}
+if (include_refs) {
+  bib_entries |>
+    filter(str_detect(keyword, "CV/Papers")) |>
+    arrange(issued, author)
+}
 ```
 
 
-## Awards
-
 ```{=typst}
-#resume-entry(
-  title: "Nobel Prize in Physics",
-  location: "Stockholm, Sweden",
-  date: "1921",
-  description: "For his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect"
-)
-```
+#show bibliography: none
+#bibliography("Paperpile.bib")
+
+// Keep track of all references, clearing every time a new heading is shown
+#let section-refs = state("section-refs", ())
+
+// Add bibliography references to the current section's state
+#show ref: it => {
+  if it.element != none {
+    // Citing a document element like a figure, not a bib key
+    // So don't update refs
+    it
+    return
+  }
+  section-refs.update(old => {
+    if it.target not in old {
+      old.push(it.target)
+    }
+    old
+  })
+  locate(loc => {
+    let idx = section-refs.at(loc).position(el => el == it.target)
+    "[" + str(idx + 1) + "]"
+  })
+}
+
+// Print the "per-section" bibliography
+#let section-bib() = locate(loc => {
+  let ref-counter = counter("section-refs")
+  ref-counter.update(1)
+  show regex("^\[(\d+)\]\s"): it => [
+    [#ref-counter.display()]
+  ]
+  for target in section-refs.at(loc) {
+    block(cite(target, form: "full"))
+    ref-counter.step()
+  }
+})
+
+// Clear the previously stored references every time a level 1 heading
+// is created.
+#show heading.where(level: 1): it => {
+  section-refs.update(())
+  it
+}
 
 
-## Skills
 
-```{=typst}
-#resume-entry(
-  title: "Languages",
-  description: "German (Native), English (Fluent), French (Intermediate)"
-)
+= First Section
+My reference @Ward2018-ix and another @Gatesy1999-wj
 
-#resume-entry(
-  title: "Programming Languages",
-  description: "Python, C++, Fortran"
-)
+#section-bib()
 
-#resume-entry(
-  title: "Markup Languages",
-  description: "Typst, Quarto, LaTeX"
-)
+= Second Section
+Another reference @Ward2018-ix and another @Gatesy1999-wj, @McGechie2018-sd
+
+#section-bib()
+
 ```
