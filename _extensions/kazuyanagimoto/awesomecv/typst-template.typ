@@ -9,8 +9,8 @@
 
 // Default style
 #let color-accent-default = rgb("#dc3522")
-#let font-header-default = ("Roboto", "Arial", "Helvetica", "Dejavu Sans")
-#let font-text-default = ("Source Sans Pro", "Arial", "Helvetica", "Dejavu Sans")
+#let font-header-default = ("Helvetica Neue", "Roboto", "Arial", "Helvetica", "Dejavu Sans")
+#let font-text-default = ("Helvetica Neue", "Futura", "Arial", "Helvetica", "Dejavu Sans")
 
 // User defined style
 $if(style.color-accent)$
@@ -172,8 +172,8 @@ $endif$
   )
   
   set page(
-    paper: "a4",
-    margin: (left: 15mm, right: 15mm, top: 10mm, bottom: 10mm),
+    paper: "us-letter",
+    margin: (left: 0.5in, right: 0.5in, top: 0.5in, bottom: 0.5in),
     footer: [
       #set text(
         fill: gray,
@@ -213,7 +213,7 @@ $endif$
     )
     
     #align(left)[
-      #text[#strong[#text(color-accent)[#it.body.text.slice(0, 3)]#text(color-darkgray)[#it.body.text.slice(3)]]]
+      #text[#strong[#text(color-accent)[#it.body.text]]]
       #box(width: 1fr, line(length: 100%))
     ]
   ]
