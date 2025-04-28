@@ -1,3 +1,176 @@
+// Some definitions presupposed by pandoc's typst output.
+#let blockquote(body) = [
+  #set text( size: 0.92em )
+  #block(inset: (left: 1.5em, top: 0.2em, bottom: 0.2em))[#body]
+]
+
+#let horizontalrule = [
+  #line(start: (25%,0%), end: (75%,0%))
+]
+
+#let endnote(num, contents) = [
+  #stack(dir: ltr, spacing: 3pt, super[#num], contents)
+]
+
+#show terms: it => {
+  it.children
+    .map(child => [
+      #strong[#child.term]
+      #block(inset: (left: 1.5em, top: -0.4em))[#child.description]
+      ])
+    .join()
+}
+
+// Some quarto-specific definitions.
+
+#show raw.where(block: true): block.with(
+    fill: luma(230), 
+    width: 100%, 
+    inset: 8pt, 
+    radius: 2pt
+  )
+
+#let block_with_new_content(old_block, new_content) = {
+  let d = (:)
+  let fields = old_block.fields()
+  fields.remove("body")
+  if fields.at("below", default: none) != none {
+    // TODO: this is a hack because below is a "synthesized element"
+    // according to the experts in the typst discord...
+    fields.below = fields.below.amount
+  }
+  return block.with(..fields)(new_content)
+}
+
+#let empty(v) = {
+  if type(v) == "string" {
+    // two dollar signs here because we're technically inside
+    // a Pandoc template :grimace:
+    v.matches(regex("^\\s*$")).at(0, default: none) != none
+  } else if type(v) == "content" {
+    if v.at("text", default: none) != none {
+      return empty(v.text)
+    }
+    for child in v.at("children", default: ()) {
+      if not empty(child) {
+        return false
+      }
+    }
+    return true
+  }
+
+}
+
+// Subfloats
+// This is a technique that we adapted from https://github.com/tingerrr/subpar/
+#let quartosubfloatcounter = counter("quartosubfloatcounter")
+
+#let quarto_super(
+  kind: str,
+  caption: none,
+  label: none,
+  supplement: str,
+  position: none,
+  subrefnumbering: "1a",
+  subcapnumbering: "(a)",
+  body,
+) = {
+  context {
+    let figcounter = counter(figure.where(kind: kind))
+    let n-super = figcounter.get().first() + 1
+    set figure.caption(position: position)
+    [#figure(
+      kind: kind,
+      supplement: supplement,
+      caption: caption,
+      {
+        show figure.where(kind: kind): set figure(numbering: _ => numbering(subrefnumbering, n-super, quartosubfloatcounter.get().first() + 1))
+        show figure.where(kind: kind): set figure.caption(position: position)
+
+        show figure: it => {
+          let num = numbering(subcapnumbering, n-super, quartosubfloatcounter.get().first() + 1)
+          show figure.caption: it => {
+            num.slice(2) // I don't understand why the numbering contains output that it really shouldn't, but this fixes it shrug?
+            [ ]
+            it.body
+          }
+
+          quartosubfloatcounter.step()
+          it
+          counter(figure.where(kind: it.kind)).update(n => n - 1)
+        }
+
+        quartosubfloatcounter.update(0)
+        body
+      }
+    )#label]
+  }
+}
+
+// callout rendering
+// this is a figure show rule because callouts are crossreferenceable
+#show figure: it => {
+  if type(it.kind) != "string" {
+    return it
+  }
+  let kind_match = it.kind.matches(regex("^quarto-callout-(.*)")).at(0, default: none)
+  if kind_match == none {
+    return it
+  }
+  let kind = kind_match.captures.at(0, default: "other")
+  kind = upper(kind.first()) + kind.slice(1)
+  // now we pull apart the callout and reassemble it with the crossref name and counter
+
+  // when we cleanup pandoc's emitted code to avoid spaces this will have to change
+  let old_callout = it.body.children.at(1).body.children.at(1)
+  let old_title_block = old_callout.body.children.at(0)
+  let old_title = old_title_block.body.body.children.at(2)
+
+  // TODO use custom separator if available
+  let new_title = if empty(old_title) {
+    [#kind #it.counter.display()]
+  } else {
+    [#kind #it.counter.display(): #old_title]
+  }
+
+  let new_title_block = block_with_new_content(
+    old_title_block, 
+    block_with_new_content(
+      old_title_block.body, 
+      old_title_block.body.body.children.at(0) +
+      old_title_block.body.body.children.at(1) +
+      new_title))
+
+  block_with_new_content(old_callout,
+    new_title_block +
+    old_callout.body.children.at(1))
+}
+
+// 2023-10-09: #fa-icon("fa-info") is not working, so we'll eval "#fa-info()" instead
+#let callout(body: [], title: "Callout", background_color: rgb("#dddddd"), icon: none, icon_color: black) = {
+  block(
+    breakable: false, 
+    fill: background_color, 
+    stroke: (paint: icon_color, thickness: 0.5pt, cap: "round"), 
+    width: 100%, 
+    radius: 2pt,
+    block(
+      inset: 1pt,
+      width: 100%, 
+      below: 0pt, 
+      block(
+        fill: background_color, 
+        width: 100%, 
+        inset: 8pt)[#text(icon_color, weight: 900)[#icon] #title]) +
+      if(body != []){
+        block(
+          inset: 1pt, 
+          width: 100%, 
+          block(fill: white, width: 100%, inset: 8pt, body))
+      }
+    )
+}
+
 #import "@preview/fontawesome:0.1.0": *
 
 //------------------------------------------------------------------------------
@@ -18,21 +191,9 @@
 #let align-header-default = center
 
 // User defined style
-$if(style.color-accent)$
-#let color-accent = rgb("$style.color-accent$")
-$else$
-#let color-accent = color-accent-default
-$endif$
-$if(style.font-header)$
-#let font-header = "$style.font-header$"
-$else$
+#let color-accent = rgb("516db0")
 #let font-header = font-header-default
-$endif$
-$if(style.font-text)$
-#let font-text = "$style.font-text$"
-$else$
 #let font-text = font-text-default
-$endif$
 
 //------------------------------------------------------------------------------
 // Helper functions
@@ -458,4 +619,135 @@ $endif$
                 profile-photo: profile-photo,)
   body
 }
+
+// Typst custom formats typically consist of a 'typst-template.typ' (which is
+// the source code for a typst template) and a 'typst-show.typ' which calls the
+// template's function (forwarding Pandoc metadata values as required)
+//
+// This is an example 'typst-show.typ' file (based on the default template  
+// that ships with Quarto). It calls the typst function named 'article' which 
+// is defined in the 'typst-template.typ' file. 
+//
+// If you are creating or packaging a custom typst template you will likely
+// want to replace this file and 'typst-template.typ' entirely. You can find
+// documentation on creating typst templates here and some examples here:
+//   - https://typst.app/docs/tutorial/making-a-template/
+//   - https://github.com/typst/templates
+
+#show: resume.with(
+  title: [Albert Einstein’s CV],
+  author: (
+    firstname: unescape_text("Albert"),
+    lastname: unescape_text("Einstein"),
+    address: unescape_text("Rämistrasse 101, CH-8092 Zürich, Switzerland, Zürich"),
+    position: unescape_text("Research Physicist ・ Professor"),
+    contacts: ((
+      text: unescape_text("ae\@example.com"),
+      url: unescape_text("mailto:ae\@example.com"),
+      icon: unescape_text("fa envelope"),
+    ), (
+      text: unescape_text("example.com"),
+      url: unescape_text("https:\/\/example.com"),
+      icon: unescape_text("assets/icon/bi-house-fill.svg"),
+    ), (
+      text: unescape_text("0000-0000-0000-0000"),
+      url: unescape_text("https:\/\/orcid.org/0000-0000-0000-0000"),
+      icon: unescape_text("fa brands orcid"),
+    ), (
+      text: unescape_text("GitHub"),
+      url: unescape_text("https:\/\/github.com/example"),
+      icon: unescape_text("fa brands github"),
+    ), (
+      text: unescape_text("LinkedIn"),
+      url: unescape_text("https:\/\/linkedin.com/in/example"),
+      icon: unescape_text("fa brands linkedin"),
+    ), (
+      text: unescape_text("twitter"),
+      url: unescape_text("https:\/\/twitter.com/example"),
+      icon: unescape_text("fa brands x-twitter"),
+    )),
+  ),
+)
+
+
+= Education
+<education>
+#resume-entry(title: "PhD. Candidate in Economics",location: "Madrid, Spain",date: "Sep 2021 - Present",description: "CEMFI",)
+#resume-entry(title: "Master in Economics and Finance",location: "Madrid, Spain",date: "Sep 2019 - Jun 2021",description: "CEMFI",)
+#resume-entry(title: "Bachelor in Economics",location: "Tokyo, Japan",date: "Apr 2014 - Mar 2019",description: "The University of Tokyo",)
+= Publications
+<publications>
+A full list of my published work can be found at:
+
+== Dissertation
+<dissertation>
+#block[
+] <refs-4d2ccbc27db374207031d714323410b2>
+== Refereed Research Papers
+<refereed-research-papers>
+#block[
+] <refs-b4277c5623bd267764bf2c44fa13c83b>
+#show bibliography: none
+#bibliography("Paperpile.bib")
+
+// Keep track of all references, clearing every time a new heading is shown
+#let section-refs = state("section-refs", ())
+
+// Add bibliography references to the current section's state
+#show ref: it => {
+  if it.element != none {
+    // Citing a document element like a figure, not a bib key
+    // So don't update refs
+    it
+    return
+  }
+  section-refs.update(old => {
+    if it.target not in old {
+      old.push(it.target)
+    }
+    old
+  })
+  locate(loc => {
+    let idx = section-refs.at(loc).position(el => el == it.target)
+    "[" + str(idx + 1) + "]"
+  })
+}
+
+// Print the "per-section" bibliography
+#let section-bib() = locate(loc => {
+  let ref-counter = counter("section-refs")
+  ref-counter.update(1)
+  show regex("^\[(\d+)\]\s"): it => [
+    [#ref-counter.display()]
+  ]
+  for target in section-refs.at(loc) {
+    block(cite(target, form: "full"))
+    ref-counter.step()
+  }
+})
+
+// Clear the previously stored references every time a level 1 heading
+// is created.
+#show heading.where(level: 1): it => {
+  section-refs.update(())
+  it
+}
+
+
+
+= First Section
+My reference @Ward2018-ix and another @Gatesy1999-wj
+
+#section-bib()
+
+= Second Section
+Another reference @Ward2018-ix and another @Gatesy1999-wj, @McGechie2018-sd
+
+#section-bib()
+#block[
+] <3ade8a4a-fb1d-4a6c-8409-ac45482d5fc9>
+
+
+
+#bibliography("Paperpile.bib")
 
