@@ -26,16 +26,13 @@ author:
       url: https://twitter.com/example
 style:
   color-accent: 516db0  
+bibliographystyle: apa
 format:
   awesomecv-typst:
     keep-typ: true
 execute: 
   echo: false
   warning: false
-filters:
-  - section-bibliographies
-citeproc: false
-bibliography: Paperpile.bib
 ---
 
 ```{r}
@@ -71,92 +68,21 @@ structure(list(degree = c("Bachelor in Economics", "Master in Economics and Fina
 
 A full list of my published work can be found at: \href{https://www.ncbi.nlm.nih.gov/myncbi/kevin.middleton.1/bibliography/public/}{\color[HTML]{000090}{NIH PubMed}}
 
-
-### Dissertation
-
-```{r}
-# Load bib file
-bib_entries <- bibliography_entries("Paperpile.bib")
-```
-
-```{r doctoral-dissertation}
-#| output: asis
-
-if (include_refs) {
-  bib_entries |>
-    filter(str_detect(keyword, "CV/Dissertation"))
-}
-```
-
-
-### Refereed Research Papers
-
-```{r research-papers, eval=TRUE}
-if (include_refs) {
-  bib_entries |>
-    filter(str_detect(keyword, "CV/Papers")) |>
-    arrange(issued, author)
-}
-```
-
-
 ```{=typst}
 #show bibliography: none
-#bibliography("Paperpile.bib")
+#bibliography(("Preprints.yml", "Papers.yml"))
 
-// Keep track of all references, clearing every time a new heading is shown
-#let section-refs = state("section-refs", ())
-
-// Add bibliography references to the current section's state
-#show ref: it => {
-  if it.element != none {
-    // Citing a document element like a figure, not a bib key
-    // So don't update refs
-    it
-    return
+#let display-bibliography(path) = {
+  for (lbl, _) in yaml(path) {
+      block[#cite(label(lbl), form: "full")]
   }
-  section-refs.update(old => {
-    if it.target not in old {
-      old.push(it.target)
-    }
-    old
-  })
-  locate(loc => {
-    let idx = section-refs.at(loc).position(el => el == it.target)
-    "[" + str(idx + 1) + "]"
-  })
 }
 
-// Print the "per-section" bibliography
-#let section-bib() = locate(loc => {
-  let ref-counter = counter("section-refs")
-  ref-counter.update(1)
-  show regex("^\[(\d+)\]\s"): it => [
-    [#ref-counter.display()]
-  ]
-  for target in section-refs.at(loc) {
-    block(cite(target, form: "full"))
-    ref-counter.step()
-  }
-})
+= Preprints
+#display-bibliography("Preprints.yml")
 
-// Clear the previously stored references every time a level 1 heading
-// is created.
-#show heading.where(level: 1): it => {
-  section-refs.update(())
-  it
-}
+#show bibliography: it => [ Empty Bibliography ]
 
-
-
-= First Section
-My reference @Ward2018-ix and another @Gatesy1999-wj
-
-#section-bib()
-
-= Second Section
-Another reference @Ward2018-ix and another @Gatesy1999-wj, @McGechie2018-sd
-
-#section-bib()
-
+= Papers
+#display-bibliography("Papers.yml")
 ```

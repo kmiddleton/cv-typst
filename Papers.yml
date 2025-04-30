@@ -1,0 +1,1102 @@
+Wilken2025-zh:
+  type: article
+  title: Avian cranial kinesis is the result of increased encephalization during the origin of birds [In Press]
+  author:
+  - Wilken, A T
+  - Sellers, K C
+  - Witmer, L M
+  - Middleton, K M
+  - Holliday, C M
+  date: 2025
+  serial-number:
+    issn: 0027-8424,1091-6490
+  parent:
+    type: periodical
+    title: Proc. Natl. Acad. Sci. U. S. A.
+Williams-Simon2024-ix:
+  type: article
+  title: Naturally segregating genetic variants contribute to thermal tolerance in a {\\textit\{Drosophila melanogaster\}} model system
+  author:
+  - Williams-Simon, Patricka A
+  - Oster, Camille
+  - Moaton, Jordyn A
+  - Ghidey, Ronel
+  - Ng'oma, Enoch
+  - Middleton, Kevin M
+  - King, Elizabeth G
+  date: 2024-03-20
+  url: http://dx.doi.org/10.1093/genetics/iyae040
+  serial-number:
+    doi: 10.1093/genetics/iyae040
+    issn: 0016-6731,1943-2631
+  abstract: Thermal tolerance is a fundamental physiological complex trait for survival in many species. For example, everyday tasks such as foraging, finding a mate, and avoiding predation, are highly dependent on how well an organism can tolerate extreme temperatures. Understanding the general architecture of the natural variants within the genes that control this trait is of high importance if we want to better comprehend thermal physiology. Here, we take a multipronged approach to further dissect the genetic architecture that controls thermal tolerance in natural populations using the Drosophila Synthetic Population Resource (DSPR) as a model system. First, we used quantitative genetics and Quantitative Trait Loci (QTL) mapping to identify major effect regions within the genome that influences thermal tolerance, then integrated RNA-sequencing to identify differences in gene expression, and lastly, we used the RNAi system to 1) alter tissue-specific gene expression and 2) functionally validate our findings. This powerful integration of approaches not only allows for the identification of the genetic basis of thermal tolerance but also the physiology of thermal tolerance in a natural population, which ultimately elucidates thermal tolerance through a fitness-associated lens.
+  parent:
+    type: periodical
+    title: Genetics
+Lagorio2024-nj:
+  type: article
+  title: Computational approaches and observer variation in the {3D} musculoskeletal modeling of the heads of \\textit\{Anolis\}
+  author:
+  - Lagorio, A D
+  - McGechie, F R
+  - Fields, M G
+  - Fortner, J
+  - Mackereth, E
+  - Perez, C
+  - Wilken, A T
+  - Leal, M
+  - Ward, C V
+  - Middleton, K M
+  - Holliday, C M
+  date: 2024-05-01
+  page-range: obae9
+  url: http://dx.doi.org/10.1093/iob/obae009
+  serial-number:
+    doi: 10.1093/iob/obae009
+    issn: 2517-4843
+  abstract: 'High-resolution imaging, 3D modeling, and quantitative analyses are equipping evolutionary biologists with new approaches to understanding the variation and evolution of the musculoskeletal system. However, challenges with interpreting DiceCT data and higher order use of modeled muscles have not yet been fully explored, and the error in and accuracy of some digital methods remain unclear. West Indian Anolis lizards are a model clade for exploring patterns in functional adaptation, ecomorphology, and sexual size dimorphism in vertebrates. These lizards possess numerous jaw muscles with potentially different anatomies that sculpt the adductor chamber of the skull. Here we test approaches to quantifying the musculoskeletal shape of the heads of two species of Anolis: A. pulchellus and A. sagrei. We employ comparative approaches such as DiceCT segmentation of jaw muscles, 3D surface attachment mapping, and 3D landmarking with the aim of exploring muscle volumes, 3D muscle fiber architecture, and sexual dimorphism of the skull. We then compare sources of measurement error in these 3D analyses while also presenting new 3D musculoskeletal data from the Anolis feeding apparatus. These findings demonstrate the accessibility and repeatability of these emerging techniques as well as provide details regarding the musculoskeletal anatomy of the heads of A. pulchellus and A. sagrei which show potential for further research of comparative biomechanics and evolution in the clade.'
+  parent:
+    type: periodical
+    title: Integr. Org. Biol.
+    issue: 1
+    volume: 6
+Middleton2023-el:
+  type: article
+  title: Cross-sectional data accurately model longitudinal growth in the craniofacial skeleton
+  author:
+  - Middleton, Kevin M
+  - Duren, Dana L
+  - McNulty, Kieran P
+  - Oh, Heesoo
+  - Valiathan, Manish
+  - Sherwood, Richard J
+  date: 2023-11-07
+  page-range: '19294'
+  url:
+    value: http://dx.doi.org/10.1038/s41598-023-46018-x
+    date: 2023-11-07
+  serial-number:
+    doi: 10.1038/s41598-023-46018-x
+    issn: 2045-2322,2045-2322
+  abstract: Dense, longitudinal sampling represents the ideal for studying biological growth. However, longitudinal samples are not typically possible, due to limits of time, prohibitive cost, or health concerns of repeat radiologic imaging. In contrast, cross-sectional samples have few such drawbacks, but it is not known how well estimates of growth milestones can be obtained from cross-sectional samples. The Craniofacial Growth Consortium Study (CGCS) contains longitudinal growth data for approximately 2000 individuals. Single samples from the CGCS for individuals representing cross-sectional data were used to test the ability to predict growth parameters in linear trait measurements separately by sex. Testing across a range of cross-sectional sample sizes from 5 to the full sample, we found that means from repeated samples were able to approximate growth rates determined from the full longitudinal CGCS sample, with mean absolute differences below 1 mm at cross-sectional sample sizes greater than ~ 200 individuals. Our results show that growth parameters and milestones can be accurately estimated from cross-sectional data compared to population-level estimates from complete longitudinal data, underscoring the utility of such datasets in growth modeling. This method can be applied to other forms of growth (e.g., stature) and to cases in which repeated radiographs are not feasible (e.g., cone-beam CT).
+  parent:
+    type: periodical
+    title: Sci. Rep.
+    issue: 1
+    volume: 13
+Holliday2022-zq:
+  type: article
+  title: New frontiers in imaging, anatomy, and mechanics of crocodylian jaw muscles
+  author:
+  - Holliday, Casey M
+  - Sellers, Kaleb C
+  - Lessner, Emily J
+  - Middleton, Kevin M
+  - Cranor, Corrine
+  - Verhulst, Conner D
+  - Lautenschlager, Stephan
+  - Bader, Kenneth
+  - Brown, Matthew A
+  - Colbert, Matthew W
+  date: 2022-10
+  page-range: 3016-3030
+  url: http://dx.doi.org/10.1002/ar.25011
+  serial-number:
+    doi: 10.1002/ar.25011
+    issn: 1932-8486,1932-8494
+  abstract: New imaging and biomechanical approaches have heralded a renaissance in our understanding of crocodylian anatomy. Here, we review a series of approaches in the preparation, imaging, and functional analysis of the jaw muscles of crocodylians. Iodine-contrast microCT approaches are enabling new insights into the anatomy of muscles, nerves, and other soft tissues of embryonic as well as adult specimens of alligators. These imaging data and other muscle modeling methods offer increased accuracy of muscle sizes and attachments without destructive methods like dissection. 3D modeling approaches and imaging data together now enable us to see and reconstruct 3D muscle architecture which then allows us to estimate 3D muscle resultants, but also measurements of pennation in ways not seen before. These methods have already revealed new information on the ontogeny, diversity, and function of jaw muscles and the heads of alligators and other crocodylians. Such approaches will lead to enhanced and accurate analyses of form, function, and evolution of crocodylians, their fossil ancestors and vertebrates in general.
+  parent:
+    type: periodical
+    title: Anat. Rec.
+    publisher: Wiley
+    issue: 10
+    volume: 305
+Cho2022-ud:
+  type: article
+  title: The influence of climate and population structure on {East Asian} skeletal morphology
+  author:
+  - Cho, Elizabeth O
+  - Cowgill, Libby W
+  - Middleton, Kevin M
+  - Blomquist, Gregory E
+  - Savoldi, Fabio
+  - Tsoi, James
+  - Bornstein, Michael M
+  date: 2022
+  page-range: '103268'
+  url: http://dx.doi.org/10.1016/j.jhevol.2022.103268
+  serial-number:
+    doi: 10.1016/j.jhevol.2022.103268
+    issn: 0047-2484,1095-8606
+  abstract: Recent studies have shown that global variation in body proportions is more complex than previously thought as some traits formerly associated with climate adaptation are better explained by geographic proximity and neutral evolutionary forces. While the recent incorporation of quantitative genetic methodologies has improved understanding of patterns related to climate in Africa, Europe, and the Americas, Asia remains underrepresented in recent and historic studies of body form. As ecogeographic studies tend to focus on male morphology, potential sex differences in features influenced by climate remain largely unexplored. Skeletal measurements encompassing the dimensions of the skull, pelvis, limbs, hands, and feet were collected from male (n = 459) and female (n = 442) remains curated in 13 collections across seven countries in East Asia (n = 901). Osteological data were analyzed with sex and minimum temperature as covariates adjusted by autosomal single-nucleotide polymorphism population genetic distance using univariate Bayesian linear mixed models, and credible intervals were calculated for each trait. Analysis supports a relationship between specific traits and climate as well as providing the magnitude of response in both sexes. After accounting for genetic distance between populations, greater association between climate and morphology was found in postcranial traits, with the relationship between climate and the skull limited primarily to breadth measurements. Larger body size is associated with colder climates with most measurements increasing with decreased temperature. The same traits were not always associated with climate for males and females nor correlated with the same intensity for both sexes. The varied directional association with climate for different regions of the skeleton and between the sexes underscores the necessity of future ecogeographic research to holistically evaluate body form and to look for sex-specific patterns to better understand population responses to environmental stresses.
+  parent:
+    type: periodical
+    title: J. Hum. Evol.
+    volume: 173
+Sellers2022-re:
+  type: article
+  title: The effects of skull flattening on suchian jaw muscle evolution
+  author:
+  - Sellers, Kaleb C
+  - Nieto, Mauro Nicolas
+  - Degrange, Federico J
+  - Pol, Diego
+  - Clark, James M
+  - Middleton, Kevin M
+  - Holliday, Casey M
+  date: 2022-10
+  page-range: 2791-2822
+  url: http://dx.doi.org/10.1002/ar.24912
+  serial-number:
+    doi: 10.1002/ar.24912
+    issn: 1932-8486,1932-8494
+  abstract: Jaw muscles are key features of the vertebrate feeding apparatus. The jaw musculature is housed in the skull whose morphology reflects a compromise between multiple functions, including feeding, housing sensory structures, and defense, and the skull constrains jaw muscle geometry. Thus, jaw muscle anatomy may be suboptimally oriented for the production of bite force. Crocodylians are a group of vertebrates that generate the highest bite forces ever measured with a flat skull suited to their aquatic ambush predatory style. However, basal members of the crocodylian line (e.g., Prestosuchus) were terrestrial predators with plesiomorphically tall skulls, and thus the origin of modern crocodylians involved a substantial reorganization of the feeding apparatus and its jaw muscles. Here, we reconstruct jaw muscles across a phylogenetic range of crocodylians and fossil suchians to investigate the impact of skull flattening on muscle anatomy. We used imaging data to create 3D models of extant and fossil suchians that demonstrate the evolution of the crocodylian skull, using osteological correlates to reconstruct muscle attachment sites. We found that jaw muscle anatomy in early fossil suchians reflected the ancestral archosaur condition but experienced progressive shifts in the lineage leading to Metasuchia. In early fossil suchians, musculus adductor mandibulae posterior and musculus pterygoideus (mPT) were of comparable size, but by Metasuchia, the jaw musculature is dominated by mPT. As predicted, we found that taxa with flatter skulls have less efficient muscle orientations for the production of high bite force. This study highlights the diversity and evolution of jaw muscles in one of the great transformations in vertebrate evolution.
+  parent:
+    type: periodical
+    title: Anat. Rec.
+    publisher: Wiley
+    issue: 10
+    volume: 305
+Cost2022-zj:
+  type: article
+  title: '{2D} and {3D} visualizations of archosaur jaw muscle mechanics, ontogeny and phylogeny using ternary diagrams and {3D} modeling'
+  author:
+  - Cost, Ian N
+  - Sellers, Kaleb C
+  - Rozin, Rachel E
+  - Spates, Anthony T
+  - Middleton, Kevin M
+  - Holliday, Casey M
+  date: 2022-02-15
+  page-range: jeb243216
+  url: http://dx.doi.org/10.1242/jeb.243216
+  serial-number:
+    doi: 10.1242/jeb.243216
+    issn: 0022-0949,1477-9145
+  abstract: Comparing patterns of performance and kinematics across behavior, development and phylogeny is crucial to understand the evolution of complex musculoskeletal systems such as the feeding apparatus. However, conveying 3D spatial data of muscle orientation throughout a feeding cycle, ontogenetic pathway or phylogenetic lineage is essential to understanding the function and evolution of the skull in vertebrates. Here, we detail the use of ternary plots for displaying and comparing the 3D orientation of muscle data. First, we illustrate changes in 3D jaw muscle resultants during jaw closing taxa the American alligator (Alligator mississippiensis). Second, we show changes in 3D muscle resultants of jaw muscles across an ontogenetic series of alligators. Third, we compare 3D resultants of jaw muscles of avian-line dinosaurs, including extant (Struthio camelus, Gallus gallus, Psittacus erithacus) and extinct (Tyrannosaurus rex) species to outline the reorganization of jaw muscles that occurred along the line to modern birds. Finally, we compare 3D resultants of jaw muscles of the hard-biting species in our sample (A. mississippiensis, T. rex, P. erithacus) to illustrate how disparate jaw muscle resultants are employed in convergent behaviors in archosaurs. Our findings show that these visualizations of 3D components of jaw muscles are immensely helpful towards identifying patterns of cranial performance, growth and diversity. These tools will prove useful for testing other hypotheses in functional morphology, comparative biomechanics, ecomorphology and organismal evolution.
+  parent:
+    type: periodical
+    title: J. Exp. Biol.
+    issue: Suppl.1
+    volume: 225
+Knigge2022-sq:
+  type: article
+  title: Craniofacial growth and morphology among intersecting clinical categories
+  author:
+  - Knigge, Ryan P
+  - Hardin, Anna M
+  - Middleton, Kevin M
+  - McNulty, Kieran P
+  - Oh, Hee Soo
+  - Valiathan, Manish
+  - Duren, Dana L
+  - Sherwood, Richard J
+  date: 2022-09
+  page-range: 2175-2206
+  url: http://dx.doi.org/10.1002/ar.24870
+  serial-number:
+    doi: 10.1002/ar.24870
+    issn: 1932-8486,1932-8494
+  abstract: Differential patterns of craniofacial growth are important sources of variation that can result in skeletal malocclusion. Understanding the timing of growth milestones and morphological change associated with adult skeletal malocclusions is critical for developing individualized orthodontic growth modification strategies. To identify patterns in the timing and geometry of growth, we used Bayesian modeling of cephalometrics and geometric morphometric analyses with a dense, longitudinal sample consisting of 15,407 cephalograms from 1,913 individuals between 2 and 31 years of age. Individuals were classified into vertical facial types (hyper-, normo-, hypo-divergent) and anteroposterior (A-P) skeletal classes (Class I, Class II, Class III) based on adult mandibular plane angle and ANB angle, respectively. These classifications yielded eight facial type-skeletal class categories with sufficient sample sizes to be included in the study. Four linear cephalometrics representing facial heights and maxillary and mandibular lengths were fit to standard double logistic models generating type-class category-specific estimates for age, size, and rate of growth at growth milestones. Mean landmark configurations were compared among type-class categories at four time points between 6 and 20 years of age. Overall, morphology and growth patterns were more similar within vertical facial types than within A-P classes and variation among A-P classes typically nested within variation among vertical types. Further, type-class-associated variation in the rate and magnitude of growth in specific regions identified here may serve as targets for clinical treatment of complex vertical and A-P skeletal malocclusion and provide a clearer picture of the development of variation in craniofacial form.
+  parent:
+    type: periodical
+    title: Anat. Rec.
+    issue: 9
+    volume: 305
+Hardin2022-qr:
+  type: article
+  title: 'Estimating craniofacial growth cessation: Comparison of asymptote- and rate-based methods'
+  author:
+  - Hardin, Anna M
+  - Knigge, Ryan P
+  - Oh, Hee Soo
+  - Valiathan, Manish
+  - Duren, Dana L
+  - McNulty, Kieran P
+  - Middleton, Kevin M
+  - Sherwood, Richard J
+  date: 2022-02
+  page-range: 230-238
+  url: http://dx.doi.org/10.1177/10556656211002675
+  serial-number:
+    doi: 10.1177/10556656211002675
+    issn: 1055-6656,1545-1569
+  abstract: 'OBJECTIVE: To identify differences between asymptote- and rate-based methods for estimating age and size at growth cessation in linear craniofacial measurements. DESIGN: This is a retrospective, longitudinal study. Five linear measurements were collected from lateral cephalograms as part of the Craniofacial Growth Consortium Study (CGCS). Four estimates of growth cessation, including 2 asymptote- (GCasym, GCerr) and 2 rate-based (GCabs, GC10%) methods, from double logistic models of craniofacial growth were compared. PARTICIPANTS: Cephalometric data from participants in 6 historic longitudinal growth studies were included in the CGCS. At least 1749 individuals (870 females, 879 males), unaffected by craniofacial anomalies, were included in all analyses. Individuals were represented by a median of 11 images between 2.5 and 31.3 years of age. RESULTS: GCasym consistently occurred before GCerr and GCabs consistently occurred before GC10% within the rate-based approaches. The ordering of the asymptote-based methods compared to the rate-based methods was not consistent across measurements or between males and females. Across the 5 measurements, age at growth cessation ranged from 13.56 (females, nasion-basion, GCasym) to 24.39 (males, sella-gonion, GCerr). CONCLUSIONS: Adolescent growth cessation is an important milestone for treatment planning. Based on our findings, we recommend careful consideration of specific definitions of growth cessation in both clinical and research settings since the most appropriate estimation method may differ according to patients'' needs. The different methods presented here provide useful estimates of growth cessation that can be applied to raw data and to a variety of statistical models of craniofacial growth.'
+  parent:
+    type: periodical
+    title: Cleft Palate Craniofac. J.
+    issue: 2
+    volume: 59
+Boeyer2020-hp:
+  type: article
+  title: 'Estimating peak height velocity in individuals: a response to {Cole} (2020)'
+  author:
+  - Boeyer, Melanie E
+  - Middleton, Kevin M
+  - Duren, Dana L
+  - Leary, Emily V
+  date: 2020-09
+  page-range: 585-586
+  url: http://dx.doi.org/10.1080/03014460.2020.1837954
+  serial-number:
+    doi: 10.1080/03014460.2020.1837954
+    issn: 0301-4460,1464-5033
+  parent:
+    type: periodical
+    title: Ann. Hum. Biol.
+    issue: 6
+    volume: 47
+Sherwood2021-le:
+  type: article
+  title: 'Bayesian approach to longitudinal craniofacial growth: the {Craniofacial Growth Consortium Study}'
+  author:
+  - Sherwood, Richard J
+  - Oh, Hee Soo
+  - Valiathan, Manish
+  - McNulty, Kieran P
+  - Duren, Dana L
+  - Knigge, Ryan P
+  - Hardin, Anna M
+  - Holzhauser, Christina L
+  - Middleton, Kevin M
+  date: 2021-05
+  page-range: 991-1019
+  url: http://dx.doi.org/10.1002/ar.24520
+  serial-number:
+    doi: 10.1002/ar.24520
+    issn: 1932-8486,1932-8494
+  abstract: Early in the 20th century, a series of studies were initiated across North America to investigate and characterize childhood growth. The Craniofacial Growth Consortium Study (CGCS) combines craniofacial records from six of those growth studies (15,407 lateral cephalograms from 1,913 individuals; 956 females, 957 males, primarily European descent). Standard cephalometric points collected from the six studies in the CGCS allows direct comparison of craniofacial growth patterns across six North American locations. Three assessors collected all cephalometric points and the coordinates were averaged for each point. Twelve measures were calculated from the averaged coordinates. We implemented a multilevel double logistic equation to estimate growth trajectories fitting each trait separately by sex. Using Bayesian inference, we fit three models for each trait with different random effects structures to compare differences in growth patterns among studies. The models successfully identified important growth milestones (e.g., age at peak growth velocity, age at cessation of growth) for most traits. In a small number of cases, these milestones could not be determined due to truncated age ranges for some studies and slow, steady growth in some measurements. Results demonstrate great similarity among the six growth studies regarding craniofacial growth milestone estimates and the overall shape of the growth curve. These similarities suggest minor variation among studies resulting from differences in protocol, sample, or possible geographic variation. The analyses presented support combining the studies into the CGCS without substantial concerns of bias. The CGCS, therefore, provides an unparalleled opportunity to examine craniofacial growth from childhood into adulthood.
+  parent:
+    type: periodical
+    title: Anat. Rec.
+    issue: 5
+    volume: 304
+Wilken2020-wf:
+  type: article
+  title: 'Connecting the chondrocranium: Biomechanics of the suspensorium in reptiles'
+  author:
+  - Wilken, Alec T
+  - Sellers, Kaleb C
+  - Cost, Ian N
+  - Rozin, Rachel E
+  - Middleton, Kevin M
+  - Holliday, Casey M
+  date: 2020
+  page-range: 275-290
+  url: http://dx.doi.org/10.26049/VZ70-3-2020-02
+  serial-number:
+    doi: 10.26049/VZ70-3-2020-02
+    issn: 1864-5755
+  parent:
+    type: periodical
+    title: Vertebrate Zoology
+    issue: 3
+    volume: 70
+Tsai2020-zm:
+  type: article
+  title: 'More than one way to be a giant: Convergence and disparity in the hip joints of saurischian dinosaurs'
+  author:
+  - Tsai, Henry P
+  - Middleton, Kevin M
+  - Hutchinson, John R
+  - Holliday, Casey M
+  date: 2020
+  page-range: 1654-1681
+  url: http://dx.doi.org/10.1111/evo.14017
+  serial-number:
+    doi: 10.1111/evo.14017
+    issn: 0014-3820,1558-5646
+  abstract: Saurischian dinosaurs evolved seven orders of magnitude in body mass, as well as a wide diversity of hip joint morphology and locomotor postures. The very largest saurischians possess incongruent bony hip joints, suggesting that large volumes of soft tissues mediated hip articulation. To understand the evolutionary trends and functional relationships between body size and hip anatomy of saurischians, we tested the relationships among discrete and continuous morphological characters using phylogenetically corrected regression. Giant theropods and sauropods convergently evolved highly cartilaginous hip joints by reducing supraacetabular ossifications, a condition unlike that in early dinosauromorphs. However, transitions in femoral and acetabular soft tissues indicate that large sauropods and theropods built their hip joints in fundamentally different ways. In sauropods, the femoral head possesses irregularly rugose subchondral surfaces for thick hyaline cartilage. Hip articulation was achieved primarily using the highly cartilaginous femoral head and the supraacetabular labrum on the acetabular ceiling. In contrast, theropods covered their femoral head and neck with thinner hyaline cartilage and maintained extensive articulation between the fibrocartilaginous femoral neck and the antitrochanter. These findings suggest that the hip joints of giant sauropods were built to sustain large compressive loads, whereas those of giant theropods experienced compression and shear forces.
+  parent:
+    type: periodical
+    title: Evolution
+    issue: 8
+    volume: 74
+Cost2020-jo:
+  type: article
+  title: Palatal Biomechanics and Its Significance for Cranial Kinesis in {Tyrannosaurus} rex
+  author:
+  - Cost, Ian N
+  - Middleton, Kevin M
+  - Sellers, Kaleb C
+  - Echols, Michael Scott
+  - Witmer, Lawrence M
+  - Davis, Julian L
+  - Holliday, Casey M
+  date: 2020
+  page-range: 999-1017
+  url: http://dx.doi.org/10.1002/ar.24219
+  serial-number:
+    doi: 10.1002/ar.24219
+    issn: 1932-8486,1932-8494
+  abstract: 'The extinct nonavian dinosaur Tyrannosaurus rex, considered one of the hardest biting animals ever, is often hypothesized to have exhibited cranial kinesis, or, mobility of cranial joints relative to the braincase. Cranial kinesis in T. rex is a biomechanical paradox in that forcefully biting tetrapods usually possess rigid skulls instead of skulls with movable joints. We tested the biomechanical performance of a tyrannosaur skull using a series of static positions mimicking possible excursions of the palate to evaluate Postural Kinetic Competency in Tyrannosaurus. A functional extant phylogenetic bracket was employed using taxa, which exhibit measurable palatal excursions: Psittacus erithacus (fore-aft movement) and Gekko gecko (mediolateral movement). Static finite element models of Psittacus, Gekko, and Tyrannosaurus were constructed and tested with different palatal postures using anatomically informed material properties, loaded with muscle forces derived from dissection, phylogenetic bracketing, and a sensitivity analysis of muscle architecture and tested in orthal biting simulations using element strain as a proxy for model performance. Extant species models showed lower strains in naturally occurring postures compared to alternatives. We found that fore-aft and neutral models of Tyrannosaurus experienced lower overall strains than mediolaterally shifted models. Protractor muscles dampened palatal strains, while occipital constraints increased strains about palatocranial joints compared to jaw joint constraints. These loading behaviors suggest that even small excursions can strain elements beyond structural failure. Thus, these postural tests of kinesis, along with the robusticity of other cranial features, suggest that the skull of Tyrannosaurus was functionally akinetic. Anat Rec, 303:999-1017, 2020. © 2019 Wiley Periodicals, Inc.'
+  parent:
+    type: periodical
+    title: Anat. Rec.
+    issue: 4
+    volume: 303
+Lynch2019-ny:
+  type: article
+  title: Integration involves a trade-off between fertility and status for {World War II} evacuees
+  author:
+  - Lynch, Robert
+  - Lummaa, Virpi
+  - Panchanathan, Karthik
+  - Middleton, Kevin
+  - Rotkirch, Anna
+  - Danielsbacka, Mirkka
+  - O'Brien, David
+  - Loehr, John
+  date: 2019
+  page-range: 337-345
+  url: http://dx.doi.org/10.1038/s41562-019-0542-5
+  serial-number:
+    doi: 10.1038/s41562-019-0542-5
+    issn: 2397-3374
+  abstract: Understanding how refugees integrate into host societies has broad implications for researchers interested in intergroup conflict and for governments concerned with promoting social cohesion. Using detailed records tracking the movements and life histories of Finnish evacuees during World War II, we find that evacuees who intermarry are more likely to be educated, work in professional occupations, marry someone higher in social status and remain in the host community. Evacuees who intermarry before the war have fewer children, whereas those who marry into their host community after the war have more children. These results indicate that life-history and assimilation outcomes depend on key differences between pre-war environments-when migrants are living in their own communities-and post-war environments-when migrants are living in the host community. Overall, this suggests that integration involves a trade-off between reproduction and status such that evacuees who integrate gain social status, whereas those who maintain stronger bonds with their natal communities have higher fertility. We discuss these results within the framework of social capital, intergroup conflict and life-history theory and suggest how they can inform our understanding of evolutionary adaptations that affect tribalism.
+  parent:
+    type: periodical
+    title: Nat Hum Behav
+    issue: 4
+    volume: 3
+Wilken2019-so:
+  type: article
+  title: The roles of joint tissues and jaw muscles in palatal biomechanics of the {Savannah} monitor ({Varanus exanthematicus}) and their significance for cranial kinesis
+  author:
+  - Wilken, Alec T
+  - Middleton, Kevin M
+  - Sellers, Kaleb C
+  - Cost, Ian N
+  - Holliday, Casey M
+  date: 2019
+  page-range: 1-14
+  url: http://dx.doi.org/10.1242/jeb.201459
+  serial-number:
+    doi: 10.1242/jeb.201459
+    issn: 0022-0949,1477-9145
+  abstract: Numerous vertebrates exhibit cranial kinesis, or movement between bones of the skull and mandible other than at the jaw joint. Many kinetic species possess a particular suite of features to accomplish this movement, including flexible cranial joints and protractor musculature. Whereas the musculoskeletal anatomy of these kinetic systems is well understood, how these joints are biomechanically loaded, how different soft tissues affect joint loading and kinetic capacity, and how the protractor musculature loads the skull remain poorly understood. Here, we present a finite element model of the savannah monitor, Varanus exanthematicus, a modestly kinetic lizard, to better elucidate the roles of soft tissue in mobile joints and protractor musculature in cranial loading. We describe the 3D resultants of jaw muscles and the histology of palatobasal, otic and jaw joints. We tested the effects of joint tissue type, bite point and muscle load to evaluate the biomechanical role of muscles on the palate and braincase. We found that the jaw muscles have significant mediolateral components that can impart stability across palatocranial joints. Articular tissues affect the magnitude of strains experienced around the palatobasal and otic joints. Without protractor muscle loading, the palate, quadrate and braincase experience higher strains, suggesting this muscle helps insulate the braincase and palatoquadrate from high loads. We found that the cross-sectional properties of the bones of V. exanthematicus are well suited for performing under torsional loads. These findings suggest that torsional loading regimes may have played a more important role in the evolution of cranial kinesis in lepidosaurs than previously appreciated.
+  parent:
+    type: periodical
+    title: J. Exp. Biol.
+    issue: Pt18
+    volume: 222
+Boeyer2020-jn:
+  type: article
+  title: 'Estimating peak height velocity in individuals: a comparison of statistical methods'
+  author:
+  - Boeyer, Melanie E
+  - Middleton, Kevin M
+  - Duren, Dana L
+  - Leary, Emily V
+  date: 2020-06-16
+  page-range: 434-445
+  url: http://dx.doi.org/10.1080/03014460.2020.1763458
+  serial-number:
+    doi: 10.1080/03014460.2020.1763458
+    issn: 0301-4460,1464-5033
+  note: 'doi: 10.1080/03014460.2020.1763458'
+  abstract: 'Background: Estimates pertaining to the timing of the adolescent growth spurt (e.g. peak height velocity; PHV), including age at peak height velocity (aPHV), play a critical role in the diagnosis, treatment, and management of skeletal growth and/or developmental disorders. Yet, distinct statistical methodologies often result in large estimate discrepancies.Aim: The aim of the present study was to assess the advantages and disadvantages of three modelling methodologies for height as well as to determine how estimates derived from these methodologies may differ, particularly those that may be useful in paediatric clinical practice.Subjects and methods: Height data from 686 individuals of the Fels Longitudinal Study were modelled using 5th order polynomials, natural cubic splines, and SuperImposition by Translation and Rotation (SITAR) to determine aPHV and PHV for all individuals together (i.e. population average) by sex and separately for each individual. Estimates within and between methodologies were calculated and compared.Results: In general, mean aPHV was earlier, and PHV was greater for individuals when compared to estimates from population average models. Significant differences between mean aPHV and PHV for individuals were observed in all three methodologies, with SITAR exhibiting the latest aPHV and largest PHV estimates.Conclusion: Each statistical methodology has a number of advantages when used for specific purposes. For modelling growth in individuals, as one would in paediatric clinical practice, we recommend the use of the 5th order polynomial methodology due to its parameter flexibility.'
+  parent:
+    type: periodical
+    title: Ann. Hum. Biol.
+    issue: 5
+    volume: 47
+Sullivan2019-vq:
+  type: article
+  title: '{3D} Muscle Architecture of the Pectoral Muscles of {European Starling} {(Sturnus vulgaris)}'
+  author:
+  - Sullivan, S P
+  - McGechie, F R
+  - Middleton, K M
+  - Holliday, C M
+  date: 2019
+  page-range: oby10
+  url:
+    value: https://academic.oup.com/iob/article/1/1/oby010/5305850
+    date: 2019-02-02
+  serial-number:
+    doi: 10.1093/iob/oby010
+  note: <div><a href="https://munews.missouri.edu/news-releases/2019/0430-new-three-dimensional-imaging-and-visualization-technique-provides-detailed-views-of-muscle-architecture/">https://munews.missouri.edu/news-releases/2019/0430-new-three-dimensional-imaging-and-visualization-technique-provides-detailed-views-of-muscle-architecture/</a></div><a href="https://www.futurity.org/3d-birds-muscles-flight-2049592-2/">https://www.futurity.org/3d-birds-muscles-flight-2049592-2/</a>
+  abstract: Avian flight is achieved through a number of modifications to the body, including the pectoral girdle, yet little is known about the architecture of the pectoral musculature. Muscle architecture is a critical variable in determining the biomechanical function of the vertebrate musculoskeletal system; however, accurate three-dimensional (3D) understanding of muscle architecture has been historically difficult to acquire. Here, we present a musculoskeletal model of a European starling (Sturnus vulgaris) pectoral girdle generated from iodine contrast-enhanced micro-computed-tomography (CT) data and 3D fiber tracking analysis. We used a template-based fiber-tracking algorithm to reconstruct muscle fibers in 3D based on grayscale differences in CT images, which allowed us to estimate fascicle lengths, pennation angles, muscle volumes, and physiological cross-sectional area. Our modeled muscles were qualitatively accurate; however, quantitative muscle architecture data differed between digital and traditional gross-dissection methods reflecting the complex organization of the tissue and differing natures of data collection. We found that model quality is affected by the resolution of CT image data and the fiber-tracking program’s input parameters. Nonetheless, digital fiber tracking offers numerous advantages over gross-dissection methods, most importantly, the ability to visualize and quantify entire muscles in three-dimensions, yielding a much more accurate estimation of whole muscle architecture.
+  parent:
+    type: periodical
+    title: Integr Org Biol
+    publisher: Oxford University Press
+    issue: 1
+    volume: 1
+Ngoma2019-gq:
+  type: article
+  title: The evolutionary potential of diet-dependent effects on lifespan and fecundity in a multi-parental population of {Drosophila melanogaster}
+  author:
+  - Ng'oma, Enoch
+  - Fidelis, Wilton
+  - Middleton, Kevin M
+  - King, Elizabeth G
+  date: 2019
+  page-range: 582-594
+  url: http://dx.doi.org/10.1038/s41437-018-0154-2
+  serial-number:
+    doi: 10.1038/s41437-018-0154-2
+    issn: 0018-067X,1365-2540
+  abstract: The nutritional conditions experienced by a population have a major role in shaping trait evolution in many taxa. Constraints exerted by nutrient limitation or nutrient imbalance can influence the maximal value that fitness components such as reproduction and lifespan attains, and organisms may shift how resources are allocated to different structures and functions in response to changes in nutrition. Whether the phenotypic changes associated with changes in nutrition represent an adaptive response is largely unknown. Further, it is unclear whether the response of fitness components to diet even has the potential to evolve in most systems. In this study, we use an admixed multi-parental population of Drosophila melanogaster reared in three different diet conditions to estimate quantitative genetic parameters for lifespan and fecundity. We find significant genetic variation for both traits in our population and show that lifespan has moderate to high heritabilities within diets. Genetic correlations for lifespan between diets were significantly less than one, demonstrating a strong genotype by diet interaction. These findings demonstrate substantial standing genetic variation in our population that is comparable to natural populations and highlights the potential for adaptation to changing nutritional environments.
+  parent:
+    type: periodical
+    title: Heredity
+    issue: 5
+    volume: 122
+Ngoma2018-aw:
+  type: article
+  title: A model-based high throughput method for fecundity estimation in fruit fly studies
+  author:
+  - Ng'oma, Enoch
+  - King, Elizabeth G
+  - Middleton, Kevin M
+  date: 2018
+  page-range: 183-190
+  url:
+    value: http://dx.doi.org/10.1080/19336934.2018.1562267
+    date: 2018-08-14
+  serial-number:
+    doi: 10.1080/19336934.2018.1562267
+    issn: 1933-6934,1933-6942
+  abstract: The ability to quantify fecundity is critically important to a wide range of experimental applications, particularly in widely-used model organisms such as Drosophila melanogaster. However, the standard method of manually counting eggs is time consuming and limits the feasibility of large-scale experiments. We develop a predictive model to automate the counting of eggs from images of eggs removed from the media surface and washed onto dark filter paper. Our method uses the simple relationship between the white area in an image and the number of eggs present to create a predictive model that performs well even at high egg densities where clumping can complicate the individual identification of eggs. A cross-validation approach demonstrates our method performs well, with a correlation between predicted and manually counted values of 0.88. We show how this method can be applied to a large data set where egg densities vary widely.
+  parent:
+    type: periodical
+    title: Fly
+    issue: 3–4
+    volume: 12
+Gatesy1999-wj:
+  type: article
+  title: '{Three-dimensional preservation of foot movements in Triassic theropod dinosaurs}'
+  author:
+  - Gatesy, Stephen M
+  - Middleton, Kevin M
+  - Jenkins, Farish A, Jr
+  - Shubin, Neil H
+  date: 1999
+  page-range: 141-144
+  url: https://www.nature.com/articles/20167
+  serial-number:
+    doi: 10.1038/20167
+    issn: 0028-0836,1476-4687
+  abstract: Dinosaur footprints have been used extensively as biostratigraphic markers, environmental indicators, measures of faunal diversity and evidence of group behaviour1, 2, 3, 4,. Trackways have also been used to estimate locomotor posture, gait and speed6, 7, 8, 9, 10, 11, but most prints, being shallow impressions of a foot's plantar surface, provide little evidence of the details of limb excursion. Here we describe Late Triassic trackways from East Greenland, made by theropods walking on substrates of different consistency and sinking to variable depths, that preserve three-dimensional records of foot movement. Triassic theropod prints share many features with those of ground-dwelling birds, but also demonstrate significant functional differences in position of the hallux (digit I), foot posture and hindlimb excursion.
+  parent:
+    type: periodical
+    title: Nature
+    publisher: nature.com
+    issue: 6732
+    volume: 399
+Peacock2018-uz:
+  type: article
+  title: Reply to {Ruff, Warden, and Karlson}
+  author:
+  - Peacock, Sarah J
+  - Garland, Theodore, Jr
+  - Middleton, Kevin M
+  date: 2018
+  page-range: 190-193
+  url: http://dx.doi.org/10.1002/ajpa.23614
+  serial-number:
+    doi: 10.1002/ajpa.23614
+    issn: 0002-9483,1096-8644
+  parent:
+    type: periodical
+    title: Am. J. Phys. Anthropol.
+    issue: 1
+    volume: 167
+Tsai2018-xp:
+  type: article
+  title: 'Hip joint articular soft tissues of non-dinosaurian {Dinosauromorpha} and early {Dinosauria}: evolutionary and biomechanical implications for {Saurischia}'
+  author:
+  - Tsai, Henry P
+  - Middleton, Kevin M
+  - Hutchinson, John R
+  - Holliday, Casey M
+  date: 2018
+  page-range: 1-23
+  url: http://dx.doi.org/10.1080/02724634.2017.1427593
+  serial-number:
+    doi: 10.1080/02724634.2017.1427593
+    issn: 0272-4634
+  note: 'doi: 10.1080/02724634.2017.1427593'
+  abstract: 'ABSTRACTDinosauromorphs evolved a wide diversity of hind limb skeletal morphologies, suggesting highly divergent articular soft tissue anatomies. However, poor preservation of articular soft tissues in fossils has hampered any follow-on functional inferences. We reconstruct the hip joint soft tissue anatomy of non-dinosaurian dinosauromorphs and early dinosaurs using osteological correlates derived from extant sauropsids and infer trends in character transitions along the theropod and sauropodomorph lineagues. Femora and pelves of 107 dinosauromorphs and outgroup taxa were digitized using 3D imaging techniques. Key transitions were estimated using maximum likelihood ancestral state reconstruction. The hips of dinosauromorphs possessed wide a disparity of soft tissue morphologies beyond the types and combinations exhibited by extant archosaurs. Early evolution of the dinosauriform hip joint was characterized by the retention of a prominent femoral hyaline cartilage cone in post-neonatal individuals, with the cartilage cone independently reduced within theropods and sauropodomorphs. The femur of Dinosauriformes possessed a fibrocartilage sleeve on the metaphysis, which surrounded a hyaline core. The acetabulum of Dinosauriformes possessed distinct labrum and antitrochanter structures. In sauropodomorphs, hip congruence was maintained by thick hyaline cartilage on the femoral head, whereas theropods relied on acetabular tissues such as ligaments and articular pads. In particular, the craniolaterally ossified hip capsule of non-Avetheropoda neotheropods permitted mostly parasagittal femoral movements. These data indicate that the dinosauromorph hip underwent mosaic evolution within the saurischian lineage and that sauropodomorphs and theropods underwent both convergence and divergence in articular soft tissues, correlated with transitions in body size, locomotor posture, and joint loading.SUPPLEMENTAL DATA?Supplemental materials are available for this article for free at www.tandfonline.com/UJVPCitation for this article: Tsai, H. P., K. M. Middleton, J. R. Hutchinson, and C. M. Holliday. 2018. Hip joint articular soft tissues of non-dinosaurian Dinosauromorpha and early Dinosauria: evolutionary and biomechanical implications for Saurischia. Journal of Vertebrate Paleontology. DOI: 10.1080/02724634.2017.1427593.'
+  parent:
+    type: periodical
+    title: J. Vert. Paleontol.
+    publisher: Taylor & Francis
+Goller2017-es:
+  type: article
+  title: Visual Sensory Signals Dominate Tactile Cues during Docked Feeding in Hummingbirds
+  author:
+  - Goller, Benjamin
+  - Segre, Paolo S
+  - Middleton, Kevin M
+  - Dickinson, Michael H
+  - Altshuler, Douglas L
+  date: 2017-11-14
+  page-range: '622'
+  url: http://dx.doi.org/10.3389/fnins.2017.00622
+  serial-number:
+    doi: 10.3389/fnins.2017.00622
+    issn: 1662-4548,1662-453X
+  abstract: Animals living in and interacting with natural environments must monitor and respond to changing conditions and unpredictable situations. Using information from multiple sensory systems allows them to modify their behavior in response to their dynamic environment but also creates the challenge of integrating different, and potentially contradictory, sources of information for behavior control. Understanding how multiple information streams are integrated to produce flexible and reliable behavior is key to understanding how behavior is controlled in natural settings. Natural settings are rarely still, which challenges animals that require precise body position control, like hummingbirds, which hover while feeding from flowers. Tactile feedback, available only once the hummingbird is docked at the flower, could provide additional information to help maintain its position at the flower. To investigate the role of tactile information for hovering control during feeding, we first asked whether hummingbirds physically interact with a feeder once docked. We quantified physical interactions between docked hummingbirds and a feeder placed in front of a stationary background pattern. Force sensors on the feeder measured a complex time course of loading that reflects the wingbeat frequency and bill movement of feeding hummingbirds, and suggests that they sometimes push against the feeder with their bill. Next, we asked whether the measured tactile interactions were used by feeding hummingbirds to maintain position relative to the feeder. We created two experimental scenarios-one in which the feeder was stationary and the visual background moved and the other where the feeder moved laterally in front of a white background. When the visual background pattern moved, docked hummingbirds pushed significantly harder in the direction of horizontal visual motion. When the feeder moved, and the background was stationary, hummingbirds generated aerodynamic force in the opposite direction of the feeder motion. These results suggest that docked hummingbirds are using visual information about the environment to maintain body position and orientation, and not actively tracking the motion of the feeder. The absence of flower tracking behavior in hummingbirds contrasts with the behavior of hawkmoths, and provides evidence that they rely primarily on the visual background rather than flower-based cues while feeding.
+  parent:
+    type: periodical
+    title: Front. Neurosci.
+    volume: 11
+Peacock2018-ty:
+  type: article
+  title: 'Predicting the bending properties of long bones: Insights from an experimental mouse model'
+  author:
+  - Peacock, Sarah J
+  - Coats, Brittney R
+  - Kirkland, J Kyle
+  - Tanner, Courtney A
+  - Garland, Theodore, Jr
+  - Middleton, Kevin M
+  date: 2018
+  page-range: 457-470
+  url: http://dx.doi.org/10.1002/ajpa.23363
+  serial-number:
+    doi: 10.1002/ajpa.23363
+    issn: 0002-9483,1096-8644
+  abstract: 'OBJECTIVES: Analyses of bone cross-sectional geometry are frequently used by anthropologists and paleontologists to infer the loading histories of past populations. To address some underlying assumptions, we investigated the relative roles of genetics and exercise on bone cross-sectional geometry and bending mechanics in three mouse strains: high bone density (C3H/He), low bone density (C57BL/6), and a high-runner strain homozygous for the Myh4Minimscallele (MM). METHODS AND MATERIALS: Weanlings of each strain were divided into exercise (wheel) or control (sedentary) treatment groups for a 7-week experimental period. Morphometrics of the femoral mid-diaphysis and mechanical testing were used to assess both theoretical and ex vivo bending mechanics. RESULTS: Across all measured morphological and bending traits, we found relatively small effects of exercise treatment compared to larger and more frequent interstrain differences. In the exercised group, total distance run over the experimental period was not a predictor of any morphological or bending traits. Cross-sectional geometry did not accurately predict bone response to loading. DISCUSSION: Results from this experimental model do not support hypothesized associations among extreme exercise, cross-sectional geometry, and bending mechanics. Our results suggest that analysis of cross-sectional geometry alone is insufficient to predict loading response, and questions the common assumption that cross-sectional geometry differences are indicative of differential loading history.'
+  parent:
+    type: periodical
+    title: Am. J. Phys. Anthropol.
+    issue: 3
+    volume: 165
+Malisch2016-ht:
+  type: article
+  title: Acute restraint stress alters wheel-running behavior immediately following stress and up to 20 hours later in house mice
+  author:
+  - Malisch, Jessica L
+  - deWolski, Karen
+  - Meek, Thomas H
+  - Acosta, Wendy
+  - Middleton, Kevin M
+  - Crino, Ondi L
+  - Garland, Theodore, Jr
+  date: 2016
+  page-range: 546-552
+  url: http://dx.doi.org/10.1086/688660
+  serial-number:
+    doi: 10.1086/688660
+    issn: 1522-2152,1537-5293
+  abstract: In vertebrates, acute stressors-although short in duration-can influence physiology and behavior over a longer time course, which might have important ramifications under natural conditions. In laboratory rats, for example, acute stress has been shown to increase anxiogenic behaviors for days after a stressor. In this study, we quantified voluntary wheel-running behavior for 22 h following a restraint stress and glucocorticoid levels 24 h postrestraint. We utilized mice from four replicate lines that have been selectively bred for high voluntary wheel-running activity (HR mice) for 60 generations and their nonselected control (C) lines to examine potential interactions between exercise propensity and sensitivity to stress. Following 6 d of wheel access on a 12L∶12D photo cycle (0700-1900 hours, as during the routine selective breeding protocol), 80 mice were physically restrained for 40 min, beginning at 1400 hours, while another 80 were left undisturbed. Relative to unrestrained mice, wheel running increased for both HR and C mice during the first hour postrestraint (P < 0.0001) but did not differ 2 or 3 h postrestraint. Wheel running was also examined at four distinct phases of the photoperiod. Running in the period of 1600-1840 hours was unaffected by restraint stress and did not differ statistically between HR and C mice. During the period of peak wheel running (1920-0140 hours), restrained mice tended to run fewer revolutions (-11%; two-tailed P = 0.0733), while HR mice ran 473% more than C (P = 0.0008), with no restraint × line type interaction. Wheel running declined for all mice in the latter part of the scotophase (0140-0600 hours), restraint had no statistical effect on wheel running, but HR again ran more than C (+467%; P = 0.0122). Finally, during the start of the photophase (0720-1200 hours), restraint increased running by an average of 53% (P = 0.0443) in both line types, but HR and C mice did not differ statistically. Mice from HR lines had statistically higher plasma corticosterone concentrations than C mice, with no statistical effect of restraint and no interaction between line type and restraint. Overall, these results indicate that acute stress can affect locomotor activity (or activity patterns) for many hours, with the most prominent effect being an increase in activity during a period of typical inactivity at the start of the photophase, 15-20 h poststressor.
+  parent:
+    type: periodical
+    title: Physiol. Biochem. Zool.
+    issue: 6
+    volume: 89
+read_hummingbirds_2016:
+  type: article
+  title: Hummingbirds control turning velocity using body orientation and turning radius using asymmetrical wingbeat kinematics
+  author:
+  - Read, Tyson J G
+  - Segre, Paolo S
+  - Middleton, Kevin M
+  - Altshuler, Douglas L
+  date: 2016
+  page-range: '20160110'
+  url: http://dx.doi.org/10.1098/rsif.2016.0110
+  serial-number:
+    doi: 10.1098/rsif.2016.0110
+    issn: 1742-5689
+  abstract: Turning in flight requires reorientation of force, which birds, bats and insects accomplish either by shifting body position and total force in concert or by using left-right asymmetries in wingbeat kinematics. Although both mechanisms have been observed in multiple species, it is currently unknown how each is used to control changes in trajectory. We addressed this problem by measuring body and wingbeat kinematics as hummingbirds tracked a revolving feeder, and estimating aerodynamic forces using a quasi-steady model. During arcing turns, hummingbirds symmetrically banked the stroke plane of both wings, and the body, into turns, supporting a body-dependent mechanism. However, several wingbeat asymmetries were present during turning, including a higher and flatter outer wingtip path and a lower more deviated inner wingtip path. A quasi-steady analysis of arcing turns performed with different trajectories revealed that changes in radius were associated with asymmetrical kinematics and forces, and changes in velocity were associated with symmetrical kinematics and forces. Collectively, our results indicate that both body-dependent and -independent force orientation mechanisms are available to hummingbirds, and that these kinematic strategies are used to meet the separate aerodynamic challenges posed by changes in velocity and turning radius.
+  parent:
+    type: periodical
+    title: J. R. Soc. Interface
+    issue: 116
+    volume: 13
+cheney_membrane_2014:
+  type: article
+  title: Membrane muscle function in the compliant wings of bats
+  author:
+  - Cheney, J A
+  - Konow, N
+  - Middleton, K M
+  - Breuer, K S
+  - Roberts, T J
+  - Giblin, E L
+  - Swartz, S M
+  date: 2014
+  page-range: '25007'
+  url: http://dx.doi.org/10.1088/1748-3182/9/2/025007
+  serial-number:
+    doi: 10.1088/1748-3182/9/2/025007
+    issn: 1748-3182,1748-3190
+  note: <p><a href="http://news.brown.edu/pressreleases/2014/05/batwing">http://news.brown.edu/pressreleases/2014/05/batwing</a></p> <p><a href="http://www.sciencedaily.com/releases/2014/05/140523145348.htm">http://www.sciencedaily.com/releases/2014/05/140523145348.htm</a></p> <p><a href="http://www.popsci.com/blog-network/eek-squad/bats-use-mini-muscles-tweak-their-wings-flight-and-drones-could-too">http://www.popsci.com/blog-network/eek-squad/bats-use-mini-muscles-tweak-their-wings-flight-and-drones-could-too</a></p> <p><a href="http://www.nytimes.com/video/science/100000002925482/secrets-of-the-bat-wing.html">http://www.nytimes.com/video/science/100000002925482/secrets-of-the-bat-wing.html</a></p> <p><a href="http://iopscience.iop.org/1748-3190/page/Highlights_of_2014">http://iopscience.iop.org/1748-3190/page/Highlights_of_2014</a></p> <p> </p>
+  abstract: Unlike flapping birds and insects, bats possess membrane wings that are more similar to many gliding mammals. The vast majority of the wing is composed of a thin compliant skin membrane stretched between the limbs, hand, and body. Membrane wings are of particular interest because they may offer many advantages to micro air vehicles. One critical feature of membrane wings is that they camber passively in response to aerodynamic load, potentially allowing for simplified wing control. However, for maximum membrane wing performance, tuning of the membrane structure to aerodynamic conditions is necessary. Bats possess an array of muscles, the plagiopatagiales proprii, embedded within the wing membrane that could serve to tune membrane stiffness, or may have alternative functions. We recorded the electromyogram from the plagiopatagiales proprii muscles of Artibeus jamaicensis, the Jamaican fruit bat, in flight at two different speeds and found that these muscles were active during downstroke. For both low- and high-speed flight, muscle activity increased between late upstroke and early downstroke and decreased at late downstroke. Thus, the array of plagiopatagiales may provide a mechanism for bats to increase wing stiffness and thereby reduce passive membrane deformation. These muscles also activate in synchrony, presumably as a means to maximize force generation, because each muscle is small and, by estimation, weak. Small differences in activation timing were observed when comparing low- and high-speed flight, which may indicate that bats modulate membrane stiffness differently depending on flight speed.
+  parent:
+    type: periodical
+    title: Bioinspir. Biomim.
+    issue: 2
+    volume: 9
+altshuler_wingbeat_2012:
+  type: article
+  title: Wingbeat kinematics and motor control of yaw turns in {Anna's} hummingbirds ({Calypte anna})
+  author:
+  - Altshuler, Douglas L
+  - Quicazán-Rubio, Elsa M
+  - Segre, Paolo S
+  - Middleton, Kevin M
+  date: 2012
+  page-range: 4070-4084
+  url: http://dx.doi.org/10.1242/jeb.075044
+  serial-number:
+    doi: 10.1242/jeb.075044
+    issn: 0022-0949,1477-9145
+  abstract: The biomechanical and neuromuscular mechanisms used by different animals to generate turns in flight are highly variable. Body size and body plan exert some influence, e.g. birds typically roll their body to orient forces generated by the wings whereas insects are capable of turning via left-right wingbeat asymmetries. Turns are also relatively brief and have low repeatability, with almost every wingbeat serving a different function throughout the change in heading. Here we present an analysis of Anna's hummingbirds (Calypte anna) as they fed continuously from an artificial feeder revolving around the outside of the animal. This setup allowed for examination of sustained changes in yaw without requiring any corresponding changes in pitch, roll or body position. Hummingbirds sustained yaw turns by expanding the wing stroke amplitude of the outer wing during the downstroke and by altering the deviation of the wingtip path during both downstroke and upstroke. The latter led to a shift in the inner-outer stroke plane angle during the upstroke and shifts in the elevation of the stroke plane and in the deviation of the wingtip path during both strokes. These features are generally more similar to how insects, as opposed to birds, turn. However, time series analysis also revealed considerable stroke-to-stroke variation. Changes in the stroke amplitude and the wingtip velocity were highly cross-correlated, as were changes in the stroke deviation and the elevation of the stroke plane. As was the case for wingbeat kinematics, electromyogram recordings from pectoral and wing muscles were highly variable, but no correlations were found between these two features of motor control. The high variability of both kinematic and muscle activation features indicates a high level of wingbeat-to-wingbeat adjustments during sustained yaw. The activation timing of the muscles was more repeatable than the activation intensity, which suggests that the former may be constrained by harmonic motion and that the latter may play a large role in kinematic adjustments. Comparing the revolution frequency of the feeder with measurements of free flight yaws reveals that feeder tracking, even at one revolution every 2 s, is well below the maximum yaw capacity of the hummingbirds.
+  parent:
+    type: periodical
+    title: J. Exp. Biol.
+    issue: Pt23
+    volume: 215
+keeney_sex_2012:
+  type: article
+  title: Sex differences in cannabinoid receptor-1 ({CB1}) pharmacology in mice selectively bred for high voluntary wheel-running behavior
+  author:
+  - Keeney, Brooke K
+  - Meek, Thomas H
+  - Middleton, Kevin M
+  - Holness, Loana F
+  - Garland, Theodore, Jr
+  date: 2012
+  page-range: 528-537
+  url: http://dx.doi.org/10.1016/j.pbb.2012.02.017
+  serial-number:
+    doi: 10.1016/j.pbb.2012.02.017
+    issn: 0091-3057,1873-5177
+  abstract: The endocannabinoid system (ECS) is involved in regulation of various physiological functions, including locomotion, antinociception, emotional states, and motivated behaviors. The ECS has been implicated in regulation of voluntary wheel running in mice via actions at the cannabinoid receptor-1 (CB1). Previously, we showed that four replicate lines of mice bred for high levels of voluntary wheel running (high-runner or HR lines) sex-specifically (females only) decreased running in response to antagonism of the CB1 receptor, as compared with four unselected Control lines. Here, we administered a CB1 receptor agonist, WIN 55,212-2 (WIN). We predicted that if CB1 activation is involved in the regulation of voluntary wheel running, then HR mice would show a greater response to CB1 agonism. Following our previous protocols, mice from generation 53 were acclimated to running wheels for 24 days, then received, in random order, either an intra-peritoneal injection of vehicle or a low (0.5 mg/kg), medium (1 mg/kg) or high dosage (3 mg/kg) of WIN. Each mouse received an injection and then experienced two nights without injections, for a total period of 12 days. Response to WIN was quantified as wheel revolutions, time spent running, and average running speed in the 10-120 min immediately following injection. Injection decreased wheel revolutions in all mice, but male HR mice decreased their running to a greater degree relative to Controls in response to the high dose of WIN over the entire period analyzed, whereas HR females showed a differential response relative to Controls only in the latter 70-120 min post-injection. These results, in conjunction with our previous study, show that (a) aspects of endocannabinoid signaling have diverged in four lines of mice bred for high levels of voluntary exercise and (b) male and female HR mice differ from one another in CB1 signaling as it relates to wheel running.
+  parent:
+    type: periodical
+    title: Pharmacol. Biochem. Behav.
+    issue: 4
+    volume: 101
+garlandjr_how_2011:
+  type: article
+  title: 'How to run far: multiple solutions and sex-specific responses to selective breeding for high voluntary activity levels'
+  author:
+  - Garland, Theodore, Jr
+  - Kelly, Scott A
+  - Malisch, Jessica L
+  - Kolb, Erik M
+  - Hannon, Robert M
+  - Keeney, Brooke K
+  - Van Cleave, Shana L
+  - Middleton, Kevin M
+  date: 2011
+  page-range: 574-581
+  url: http://dx.doi.org/10.1098/rspb.2010.1584
+  serial-number:
+    doi: 10.1098/rspb.2010.1584
+    issn: 0962-8452,1471-2954
+  abstract: The response to uniform selection may occur in alternate ways that result in similar performance. We tested for multiple adaptive solutions during artificial selection for high voluntary wheel running in laboratory mice. At generation 43, the four replicate high runner (HR) lines averaged 2.85-fold more revolutions per day as compared with four non-selected control (C) lines, and females ran 1.11-fold more than males, with no sex-by-linetype interaction. Analysis of variance indicated significant differences among C lines but not among HR for revolutions per day. By contrast, average speed varied significantly among HR lines, but not among C, and showed a sex-by-linetype interaction, with the HR/C ratio being 2.02 for males and 2.45 for females. Time spent running varied among both HR and C lines, and showed a sex-by-linetype interaction, with the HR/C ratio being 1.52 for males but only 1.17 for females. Thus, females (speed) and males (speed, but also time) evolved differently, as did the replicate selected lines. Speed and time showed a trade-off among HR but not among C lines. These results demonstrate that uniform selection on a complex trait can cause consistent responses in the trait under direct selection while promoting divergence in the lower-level components of that trait.
+  parent:
+    type: periodical
+    title: Proc. Biol. Sci.
+    issue: 1705
+    volume: 278
+kolb_erythropoietin_2010:
+  type: article
+  title: Erythropoietin elevates {VO2,max} but not voluntary wheel running in mice
+  author:
+  - Kolb, E M
+  - Kelly, S A
+  - Middleton, K M
+  - Sermsakdi, L S
+  - Chappell, M A
+  - Garland, T, Jr
+  date: 2010
+  page-range: 510-519
+  url: http://dx.doi.org/10.1242/jeb.029074
+  serial-number:
+    doi: 10.1242/jeb.029074
+    issn: 0022-0949,1477-9145
+  abstract: Voluntary activity is a complex trait, comprising both behavioral (motivation, reward) and anatomical/physiological (ability) elements. In the present study, oxygen transport was investigated as a possible limitation to further increases in running by four replicate lines of mice that have been selectively bred for high voluntary wheel running and have reached an apparent selection limit. To increase oxygen transport capacity, erythrocyte density was elevated by the administration of an erythropoietin (EPO) analogue. Mice were given two EPO injections, two days apart, at one of two dose levels (100 or 300 microg kg(-1)). Hemoglobin concentration ([Hb]), maximal aerobic capacity during forced treadmill exercise (VO2,max) and voluntary wheel running were measured. [Hb] did not differ between high runner (HR) and non-selected control (C) lines without EPO treatment. Both doses of EPO significantly (P<0.0001) increased [Hb] as compared with sham-injected animals, with no difference in [Hb] between the 100 microg kg(-1) and 300 microg kg(-1) dose levels (overall mean of 4.5 g dl(-1) increase). EPO treatment significantly increased VO2,max by approximately 5% in both the HR and C lines, with no dose x line type interaction. However, wheel running (revolutions per day) did not increase with EPO treatment in either the HR or C lines, and in fact significantly decreased at the higher dose in both line types. These results suggest that neither [Hb] per se nor VO2,max is limiting voluntary wheel running in the HR lines. Moreover, we hypothesize that the decrease in wheel running at the higher dose of EPO may reflect direct action on the reward pathway of the brain.
+  parent:
+    type: periodical
+    title: J. Exp. Biol.
+    issue: 3
+    volume: 213
+malisch_behavioral_2009:
+  type: article
+  title: Behavioral despair and home-cage activity in mice with chronically elevated baseline corticosterone concentrations
+  author:
+  - Malisch, Jessica L
+  - Breuner, Creagh W
+  - Kolb, Erik M
+  - Wada, Haruka
+  - Hannon, Robert M
+  - Chappell, Mark A
+  - Middleton, Kevin M
+  - Garland, Theodore, Jr
+  date: 2009
+  page-range: 192-201
+  url: http://dx.doi.org/10.1007/s10519-008-9246-8
+  serial-number:
+    doi: 10.1007/s10519-008-9246-8
+    issn: 0001-8244,1573-3297
+  abstract: Dysfunction of the hypothalamic-pituitary-adrenal axis resulting in elevated baseline glucocorticoid concentrations is a hallmark of stress-related human anxiety and affective disorders, including depression. Mice from four replicate lines bred for high voluntary wheel running (HR lines) run almost three times as much as four non-selected control (C) lines, and exhibit two fold elevated baseline circulating corticosterone levels throughout the 24 h cycle. Although elevated baseline CORT may be beneficial for high locomotor activity, chronic elevations can have deleterious effects on multiple systems, and may predispose for affective disorders. Because stressful events often precede a depressive bout, we quantified depressive-like behavior in the forced-swim (FST; generation 41) and tail-suspension tests (TST; generation 47) in HR and C mice that had wheel access for 6 days and then were deprived of wheels on day seven prior to the FST or TST. Male HR spent significantly more time immobile in the FST than C, suggesting that HR males have a predisposition for depression-like behavior. Both male and female HR (generation 43) were more active than same-sex controls in both wheel running and home-cage activity across 22 h (pooling the sexes, HR/C = 2.28 and 2.66, respectively).
+  parent:
+    type: periodical
+    title: Behav. Genet.
+    issue: 2
+    volume: 39
+keeney_differential_2008:
+  type: article
+  title: 'Differential response to a selective cannabinoid receptor antagonist ({SR141716: Rimonabant}) in female mice from lines selectively bred for high voluntary wheel-running behaviour'
+  author:
+  - Keeney, Brooke K
+  - Raichlen, David A
+  - Meek, Thomas H
+  - Wijeratne, Rashmi S
+  - Middleton, Kevin M
+  - Gerdeman, Gregory L
+  - Garland, Theodore, Jr
+  date: 2008
+  page-range: 812-820
+  url: http://dx.doi.org/10.1097/FBP.0b013e32831c3b6b
+  serial-number:
+    doi: 10.1097/FBP.0b013e32831c3b6b
+    issn: 0955-8810,1473-5849
+  abstract: Exercise is a naturally rewarding behaviour in human beings and can be associated with feelings of euphoria and analgesia. The endocannabinoid system may play a role in the perception of neurobiological rewards during and after prolonged exercise. Mice from lines that have been selectively bred for high voluntary wheel running (high runner or HR lines) may have evolved neurobiological mechanisms that increase the incentive salience of endurance-type exercise. Here, we test the hypothesis that endocannabinoid signalling has been altered in the four replicate HR lines as compared with four nonselected control lines. After 18 days of acclimation to cages with attached wheels, we injected mice with rimonabant (SR141716), a selective cannabinoid CB1 receptor antagonist. During the time of normal peak running, each mouse received, in a randomized order, intraperitoneal injection of rimonabant (0.1 or 3.0 mg/kg) or vehicle, over 9 days. Drug response was quantified as wheel revolutions, time and speed 10-70 min postinjection. Rimonabant decreased running in all mice; however, female HR mice differentially decreased running speed and distance (but not time) as compared with control females. We conclude that altered endocannabinoid signalling plays a role in the high wheel running of female HR mice.
+  parent:
+    type: periodical
+    title: Behav. Pharmacol.
+    issue: 8
+    volume: 19
+clarke_mosaicism_2008:
+  type: article
+  title: 'Mosaicism, modules, and the evolution of birds: results from a {Bayesian} approach to the study of morphological evolution using discrete character data'
+  author:
+  - Clarke, Julia A
+  - Middleton, Kevin M
+  date: 2008
+  page-range: 185-201
+  url: http://dx.doi.org/10.1080/10635150802022231
+  serial-number:
+    doi: 10.1080/10635150802022231
+    issn: 1063-5157
+  abstract: The study of morphological evolution after the inferred origin of active flight homologous with that in Aves has historically been characterized by an emphasis on anatomically disjunct, mosaic patterns of change. Relatively few prior studies have used discrete morphological character data in a phylogenetic context to quantitatively investigate morphological evolution or mosaic evolution in particular. One such previously employed method, which used summed unambiguously optimized synapomorphies, has been the basis for proposing disassociated and sequential "modernizing" or "fine-tuning" of pectoral and then pelvic locomotor systems after the origin of flight ("pectoral early-pelvic late" hypothesis). We use one of the most inclusive phylogenetic data sets of basal birds to investigate properties of this method and to consider the application of a Bayesian phylogenetic approach. Bayes factor and statistical comparisons of branch length estimates were used to evaluate support for a mosaic pattern of character change and the specific pectoral early-pelvic late hypothesis. Partitions were defined a priori based on anatomical subregion (e.g., pelvic, pectoral) and were based on those hypothesized using the summed synapomorphy approach. We compare 80 models all implementing the M(k) model for morphological data but varying in the number of anatomical subregion partitions, the models for among-partition rate variation and among-character rate variation, as well as the branch length prior. Statistical analysis reveals that partitioning data by anatomical subregion, independently estimating branch lengths for partitioned data, and use of shared or per partition gamma-shaped among-character rate distribution significantly increases estimated model likelihoods. Simulation studies reveal that partitioned models where characters are randomly assigned perform significantly worse than both the observed model and the single-partition equal-rate model, suggesting that only partitioning by anatomical subregion increases model performance. The preference for models with partitions defined a priori by anatomical subregion is consistent with a disjunctive pattern of character change for the data set investigated and may have implications for parameterization of Bayesian analyses of morphological data more generally. Statistical tests of differences in estimated branch lengths from the pectoral and pelvic partitions do not support the specific pectoral early-pelvic late hypothesis proposed from the summed synapomorphy approach; however, results suggest limited support for some pectoral branch lengths being significantly longer only early at/after the origin of flight.
+  parent:
+    type: periodical
+    title: Syst. Biol.
+    issue: 2
+    volume: 57
+hannon_phenotypic_2008a:
+  type: article
+  title: Phenotypic effects of the "mini-muscle" allele in a large {HR x C57BL/6J} mouse backcross
+  author:
+  - Hannon, Robert M
+  - Kelly, Scott A
+  - Middleton, Kevin M
+  - Kolb, Erik M
+  - Pomp, Daniel
+  - Garland, Theodore, Jr
+  date: 2008
+  page-range: 349-354
+  url: http://dx.doi.org/10.1093/jhered/esn011
+  serial-number:
+    doi: 10.1093/jhered/esn011
+    issn: 0022-1503,1465-7333
+  abstract: From outbred Hsd:ICR mice, we selectively bred 4 replicate lines for high running (High-Runner [HR] lines) on wheels while maintaining 4 nonselected lines as controls (C lines). An apparent Mendelian recessive, the "mini-muscle" (MM) allele, whose main phenotypic effect is to reduce hindlimb muscle mass by 50%, was discovered in 2 HR lines and 1 C line. This gene of major effect has gone to fixation in one selected line, remains polymorphic in another, and is now undetectable in the one C line. Homozygotes exhibit various pleiotropic effects, including a doubling of mass-specific muscle aerobic capacity, and larger hearts, livers, and spleens. To create a population suitable for mapping the genomic location of the MM allele and to better characterize its pleiotropic effects, we crossed females fixed for the MM allele with male C57BL/6J. F(1) males were then backcrossed to the MM parent females. Backcross (BC) mice (N = 404) were dissected, and a 50:50 ratio of normal to MM phenotype was observed with no overlap in relative muscle mass. In the BC, analysis of covariance revealed that MM individuals ran significantly more on days 5 and 6 of a 6-day exposure to running wheels (as in the routine selective-breeding protocol), were smaller in body mass, and had larger ventricles and spleens.
+  parent:
+    type: periodical
+    title: J. Hered.
+    issue: 4
+    volume: 99
+middleton_morphological_2001:
+  type: article
+  title:
+    value: The morphological basis of hallucal orientation in extant birds
+    short: J Morph
+  author: Middleton, K M
+  date: 2001
+  page-range: 51-60
+  url: http://dx.doi.org/10.1002/jmor.1058
+  serial-number:
+    doi: 10.1002/jmor.1058
+    issn: 0362-2525,0022-2887
+  abstract: The perching foot of living birds is commonly characterized by a reversed or opposable digit I (hallux). Primitively, the hallux of nonavian theropod dinosaurs was unreversed and lay parallel to digits II-IV. Among basal birds, a unique digital innovation evolved in which the hallux opposes digits II-IV. This digital configuration is critical for grasping and perching. I studied skeletons of modern birds with a range of hallucal designs, from unreversed (anteromedially directed) to fully reversed (posteriorly directed). Two primary correlates of hallucal orientation were revealed. First, the fossa into which metatarsal I articulates is oriented slightly more posteriorly on the tarsometatarsus, rotating the digit as a unit. Second, metatarsal I exhibits a distinctive torsion of its distal shaft relative to its proximal articulation with the tarsometatarsus, reorienting the distal condyles and phalanges of digit I. Herein, I present a method that facilitates the re-evaluation of hallucal orientation in fossil avians based on morphology alone. This method also avoids potential misinterpretations of hallucal orientation in fossil birds that could result from preserved appearance alone.
+  parent:
+    type: periodical
+    title: J. Morphol.
+    issue: 1
+    volume: 250
+tian_direct_2006:
+  type: article
+  title: Direct measurements of the kinematics and dynamics of bat flight
+  author:
+  - Tian, Xiaodong
+  - Iriarte-Diaz, Jose
+  - Middleton, Kevin
+  - Galvao, Ricardo
+  - Israeli, Emily
+  - Roemer, Abigail
+  - Sullivan, Allyce
+  - Song, Arnold
+  - Swartz, Sharon
+  - Breuer, Kenneth
+  date: 2006
+  page-range: S10-8
+  url: http://dx.doi.org/10.1088/1748-3182/1/4/S02
+  serial-number:
+    doi: 10.1088/1748-3182/1/4/S02
+    issn: 1748-3182,1748-3190
+  abstract: Experimental measurements and analysis of the flight of bats are presented, including kinematic analysis of high-speed stereo videography of straight and turning flight, and measurements of the wake velocity field behind the bat. The kinematic data reveal that, at relatively slow flight speeds, wing motion is quite complex, including a sharp retraction of the wing during the upstroke and a broad sweep of the partially extended wing during the downstroke. The data also indicate that the flight speed and elevation are not constant, but oscillate in synchrony with both the horizontal and vertical movements of the wing. PIV measurements in the transverse (Trefftz) plane of the wake indicate a complex 'wake vortex' structure dominated by a strong wing tip vortex shed from the wing tip during the downstroke and either the wing tip or a more proximal joint during the upstroke. Data synthesis of several discrete realizations suggests a 'cartoon' of the wake structure during the entire wing beat cycle. Considerable work remains to be done to confirm and amplify these results.
+  parent:
+    type: periodical
+    title: Bioinspir. Biomim.
+    issue: 4
+    volume: 1
+Middleton2000-uh:
+  type: article
+  title: Theropod forelimb design and evolution
+  author:
+  - Middleton, Kevin M
+  - Gatesy, Stephen M
+  date: 2000
+  page-range: 149-187
+  url: http://dx.doi.org/10.1111/j.1096-3642.2000.tb00160.x
+  serial-number:
+    doi: 10.1111/j.1096-3642.2000.tb00160.x
+    issn: 0024-4082
+  abstract: 'We examined the relationship between forelimb design and function across the 230-million-year history of theropod evolution. Forelimb disparity was assessed by plotting the relative contributions of the three main limb elements on a ternary diagram. Theropods were divided into five functional groups: predatory, reduced, flying, wing-propelled diving, and flighdess. Forelimbs which maintained their primitive function, predation, are similarly proportioned, but non-avian theropods with highly reduced forelimbs have relatively longer humeri. Despite the dramatically different forces imparted by the evolution of flight, forelimb proportions of basal birds are only slighdy different from those of their non-avian relatives. An increase in disparity accompanied the subsequent radiation of birds. Each transition to flightlessness has been accompanied by an increase in relative humeral length, which results from relatively short distal limb elements. We introduce theoretical predictions based on five biomechanical and developmental factors that may have influenced the evolution of theropod limb proportions.'
+  parent:
+    type: periodical
+    title: Zool. J. Linn. Soc.
+    publisher: Blackwell Publishing Ltd
+    issue: 2
+    volume: 128
+Gatesy1997-ur:
+  type: article
+  title: Bipedalism, flight, and the evolution of theropod locomotor diversity
+  author:
+  - Gatesy, Stephen M
+  - Middleton, Kevin M
+  date: 1997
+  page-range: 308-329
+  url: https://doi.org/10.1080/02724634.1997.10010977
+  serial-number:
+    doi: 10.1080/02724634.1997.10010977
+    issn: 0272-4634
+  note: 'doi: 10.1080/02724634.1997.10010977'
+  abstract: ABSTRACT The evolution of theropod flight has been characterized as a shift from one to three locomotor modules. Basal theropods, which were terrestrial bipeds, had a single locomotor module composed of the hind limb and tail. In birds, aerial locomotion was acquired with the origination of the wing module and a decoupling of the hind limb and tail into separate pelvic and caudal modules. This increase in modularity is thought to have granted birds more locomotor ?options? than non-avian theropods. More specifically, an aerial locomotor system could have eased constraints on the hind limb and allowed specialization for habitats and lifestyles unavailable to non-birds. If so, bird hind limbs should be more disparate than those of non-avian theropods. We addressed this hypothesis by visualizing one aspect of limb design, the proportions of the three main segments, using ternary diagrams. Our results show that avian hind limb proportions are much more disparate than those of non-avian theropods. This broad range of limb design correlates with a radiation in locomotor diversity founded on three locomotor modules. We propose that birds have reached regions of proportion morphospace that are off limits to bipeds with only one locomotor module. In comparison, the limbs of non-avian theropods are conservatively proportioned. Despite great variation in body size, theropods other than birds do not exhibit specializations for locomotion other than terrestrial bipedalism. Although other aspects of size and shape need to be analyzed, the relationship between modular flexibility and morphological disparity appears to play an important role in theropod locomotor evolution.
+  parent:
+    type: periodical
+    title: J. Vert. Paleontol.
+    publisher: Taylor & Francis
+    issue: 2
+    volume: 17
+Gatesy1999-xg:
+  type: article
+  title: 'Theropod hind limb disparity revisited: a response'
+  author:
+  - Gatesy, Stephen M
+  - Middleton, Kevin M
+  date: 1999
+  page-range: '606'
+  url: http://dx.doi.org/10.1080/02724634.1999.10011173
+  serial-number:
+    doi: 10.1080/02724634.1999.10011173
+    issn: 0272-4634
+  note: 'doi: 10.1080/02724634.1999.10011173'
+  parent:
+    type: periodical
+    title: J. Vert. Paleontol.
+    publisher: Taylor & Francis
+    issue: 3
+    volume: 19
+eisenmann_day_2009:
+  type: article
+  title: Day-to-day variability in voluntary wheel running among genetically differentiated lines of mice that vary in activity level
+  author:
+  - Eisenmann, Joey C
+  - Wickel, Eric E
+  - Kelly, Scott A
+  - Middleton, Kevin M
+  - Garland, Theodore, Jr
+  date: 2009
+  page-range: 613-619
+  url: http://dx.doi.org/10.1007/s00421-009-1056-z
+  serial-number:
+    doi: 10.1007/s00421-009-1056-z
+    issn: 1439-6319,1439-6327
+  abstract: 'This study examined the day-to-day variability in voluntary wheel-running behavior among three genetically distinct lines of young male and female mice. Daily wheel revolutions were recorded at an age of 6-8 weeks in 10 males and 10 females from each of 3 lines: selectively bred line for high wheel running (Line 8), selectively bred for high wheel-running activity and fixed for a Mendelian recessive allele that reduces hind-limb muscle mass by 50% (Line 3), non-selected control (Line 2). There were significant mean differences in revolutions/day among weeks (P = 0.003), but the effect size was small (10%). Significant main effects for wheel running were also revealed for sex and line (P < 0.001). The grand mean +/- SD for the coefficient of variation (CV) of intra-individual wheel running was 23.0 +/- 10.8%. Although a significant main effect for the CV was found for week, the effect size was low (7%) (age 6 weeks, 23.4 +/- 10.9%; age 7 weeks, 25.1 +/- 13.2%; age 8 weeks, 20.1 +/- 7.8%). The overall mean CV was similar between females (21.4 +/- 9.8%) and males (24.4 +/- 12.0%) and among lines (Line 2, 23.4 +/- 9.8%; Line 3, 20.4 +/- 7.6%; and Line 8, 25.0 +/- 14.4%). These findings are consistent with our previous work in young humans and lend further support for the hypothesis that biological mechanisms influence daily levels of physical activity.'
+  parent:
+    type: periodical
+    title: Eur. J. Appl. Physiol.
+    issue: 4
+    volume: 106
+lavin_morphometrics_2008:
+  type: article
+  title: 'Morphometrics of the avian small intestine compared with that of nonflying mammals: a phylogenetic approach'
+  author:
+  - Lavin, Shana R
+  - Karasov, William H
+  - Ives, Anthony R
+  - Middleton, Kevin M
+  - Garland, Theodore, Jr
+  date: 2008
+  page-range: 526-550
+  url: http://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=pubmed&id=18754728&retmode=ref&cmd=prlinks
+  serial-number:
+    doi: 10.1086/522641
+    issn: 1522-2152,1537-5293
+  parent:
+    type: periodical
+    title: Physiol. Biochem. Zool.
+    issue: 5
+    volume: 81
+Sellers2017-kj:
+  type: article
+  title: Ontogeny of bite force in a validated biomechanical model of the {American alligator}
+  author:
+  - Sellers, Kaleb C
+  - Middleton, Kevin M
+  - Davis, Julian L
+  - Holliday, Casey M
+  date: 2017
+  page-range: 2036-2046
+  url: http://dx.doi.org/10.1242/jeb.156281
+  serial-number:
+    doi: 10.1242/jeb.156281
+    issn: 0022-0949,1477-9145
+  abstract: Three-dimensional computational modeling offers tools with which to investigate forces experienced by the skull during feeding and other behaviors. American alligators (Alligator mississippiensis) generate some of the highest measured bite forces among extant tetrapods. A concomitant increase in bite force accompanies ontogenetic increases in body mass, which has been linked with dietary changes as animals increase in size. Because the flattened skull of crocodylians has substantial mediolaterally oriented muscles, crocodylians are an excellent model taxon in which to explore the role of mediolateral force components experienced by the feeding apparatus. Many previous modeling studies of archosaur cranial function focused on planar analysis, ignoring the mediolateral aspects of cranial forces. Here, we used three-dimensionally accurate anatomical data to resolve 3D muscle forces. Using dissection, imaging and computational techniques, we developed lever and finite element models of an ontogenetic series of alligators to test the effects of size and shape on cranial loading and compared estimated bite forces with those previously measured in vivo in A. mississippiensis We found that modeled forces matched in vivo data well for intermediately sized individuals, and somewhat overestimated force in smaller specimens and underestimated force in larger specimens, suggesting that ontogenetically static muscular parameters and bony attachment sites alone cannot account for all the variation in bite force. Adding aponeurotic muscle attachments would likely improve force predictions, but such data are challenging to model and integrate into analyses of extant taxa and are generally unpreserved in fossils. We conclude that anatomically accurate modeling of muscles can be coupled with finite element and lever analyses to produce reliable, reasonably accurate estimate bite forces and thus both skeletal and joint loading, with known sources of error, which can be applied to extinct taxa.
+  parent:
+    type: periodical
+    title: J. Exp. Biol.
+    volume: 220
+riskin_effect_2010:
+  type: article
+  title: The effect of body size on the wing movements of pteropodid bats, with insights into thrust and lift production
+  author:
+  - Riskin, Daniel K
+  - Iriarte-Díaz, José
+  - Middleton, Kevin M
+  - Breuer, Kenneth S
+  - Swartz, Sharon M
+  date: 2010
+  page-range: 4110-4122
+  url: http://dx.doi.org/10.1242/jeb.043091
+  serial-number:
+    doi: 10.1242/jeb.043091
+    issn: 0022-0949,1477-9145
+  abstract: In this study we compared the wing kinematics of 27 bats representing six pteropodid species ranging more than 40 times in body mass (M(b)=0.0278-1.152 kg), to determine whether wing posture and overall wing kinematics scaled as predicted according to theory. The smallest species flew in a wind tunnel and the other five species in a flight corridor. Seventeen kinematic markers on the midline and left side of the body were tracked in three dimensions. We used phylogenetically informed reduced major axis regression to test for allometry. We found that maximum wingspan (b(max)) and maximum wing area (S(max)) scaled with more positive allometry, and wing loading (Q(s)) with more negative allometry (b(max)∝M(b)(0.423); S(max)∝M(b)(0.768); Q(s)∝M(b)(0.233)) than has been reported in previous studies that were based on measurements from specimens stretched out flat on a horizontal surface. Our results suggest that larger bats open their wings more fully than small bats do in flight, and that for bats, body measurements alone cannot be used to predict the conformation of the wings in flight. Several kinematic variables, including downstroke ratio, wing stroke amplitude, stroke plane angle, wing camber and Strouhal number, did not change significantly with body size, demonstrating that many aspects of wing kinematics are similar across this range of body sizes. Whereas aerodynamic theory suggests that preferred flight speed should increase with mass, we did not observe an increase in preferred flight speed with mass. Instead, larger bats had higher lift coefficients (C(L)) than did small bats (C(L)∝M(b)(0.170)). Also, the slope of the wingbeat period (T) to body mass regression was significantly more shallow than expected under isometry (T∝M(b)(0.180)), and angle of attack (α) increased significantly with body mass [α∝log(M(b))7.738]. None of the bats in our study flew at constant speed, so we used multiple regression to isolate the changes in wing kinematics that correlated with changes in flight speed, horizontal acceleration and vertical acceleration. We uncovered several significant trends that were consistent among species. Our results demonstrate that for medium- to large-sized bats, the ways that bats modulate their wing kinematics to produce thrust and lift over the course of a wingbeat cycle are independent of body size.
+  parent:
+    type: periodical
+    title: J. Exp. Biol.
+    issue: Pt23
+    volume: 213
+swartz_biomechanics_2008:
+  type: article
+  title: 'Biomechanics of the bat limb skeleton: scaling, material properties and mechanics'
+  author:
+  - Swartz, Sharon M
+  - Middleton, Kevin M
+  date: 2008
+  page-range: 59-84
+  url: http://dx.doi.org/10.1159/000109964
+  serial-number:
+    doi: 10.1159/000109964
+    issn: 1422-6405,1422-6421
+  abstract: 'BACKGROUND/AIMS: Wing skeletons of bats are uniquely specialized for flight, reflecting both evolutionary history and the need to maintain structural integrity while generating aerodynamic forces. METHODS: We analyzed the anatomical structure of bat wing skeletons in the context of scaling patterns relative to other mammals, material properties and the mechanical function of the wing bones during flight. RESULTS: Compared with nonvolant mammals, the bones of the bat forelimb are elongated, even after correcting for shared phylogenetic history. Bats have consistently larger-diameter bones in the forelimb than do nonvolant mammals but significantly narrower hindlimb bones. Mineralization in the cortical bone of wings is lower than in the long bones of other adult mammals, with a proximodistal gradient of decreasing mineralization. The distal phalanges have only a small amount of mineralized tissue underlying the articular cartilage. Loads required to elicit a 10% length deflection in the wing bones of Glossophaga soricina varied approximately 50-fold along the wing and flexural stiffness nearly 200-fold. Commensurate with low mineralization and flexural stiffness, bat bones experience extraordinarily high bending strains during flight. CONCLUSION: Bat limb skeletons share features with other mammals and possess specialized characteristics, mostly related to the mechanical demands of flight.'
+  parent:
+    type: periodical
+    title: Cells Tissues Organs
+    issue: 1
+    volume: 187
+middleton_relative_2008:
+  type: article
+  title: 'The relative importance of genetics and phenotypic plasticity in dictating bone morphology and mechanics in aged mice: evidence from an artificial selection experiment'
+  author:
+  - Middleton, Kevin M
+  - Shubin, Corinne E
+  - Moore, Douglas C
+  - Carter, Patrick A
+  - Garland, Theodore, Jr
+  - Swartz, Sharon M
+  date: 2008
+  page-range: 135-147
+  url: http://dx.doi.org/10.1016/j.zool.2007.06.003
+  serial-number:
+    doi: 10.1016/j.zool.2007.06.003
+    issn: 0944-2006
+  abstract: Both genetic and environmental factors are known to influence the structure of bone, contributing to its mechanical behavior during, and adaptive response to, loading. We introduce a novel approach to simultaneously address the genetically mediated, exercise-related effects on bone morphometrics and strength, using mice that had been selectively bred for high levels of voluntary wheel running (16 generations). Female mice from high running and control lines were either allowed (n=12, 12, respectively) or denied (n=11, 12, respectively) access to wheels for 20 months. Femoral shaft, neck, and head were measured with calipers and via micro-computed tomography. Fracture characteristics of the femoral head were assessed in cantilever bending. After adjusting for variation in body mass by two-way analysis of covariance, distal width of the femur increased as a result of selective breeding, and mediolateral femoral diameter was reduced by wheel access. Cross-sectional area of the femoral mid-shaft showed a significant linetype x activity effect, increasing with wheel access in high-running lines but decreasing in control lines. Body mass was significantly positively correlated with many of the morphometric traits studied. Fracture load of the femoral neck was strongly positively predicted by morphometric traits of the femoral neck (r2>0.30), but no significant effects of selective breeding or wheel access were found. The significant correlations of body mass with femoral morphometric traits underscore the importance of controlling for body size when analyzing the response of bone size and shape to experimental treatments. After controlling for body mass, measures of the femoral neck remain significant predictors of femoral neck strength.
+  parent:
+    type: periodical
+    title: Zoology
+    issue: 2
+    volume: 111
+wallace_functional_2010:
+  type: article
+  title:
+    value: Functional significance of genetic variation underlying limb bone diaphyseal structure
+    short: Am J Phys Anthro
+  author:
+  - Wallace, Ian J
+  - Middleton, Kevin M
+  - Lublinsky, Svetlana
+  - Kelly, Scott A
+  - Judex, Stefan
+  - Garland, Theodore, Jr
+  - Demes, Brigitte
+  date: 2010
+  page-range: 21-30
+  url: http://dx.doi.org/10.1002/ajpa.21286
+  serial-number:
+    doi: 10.1002/ajpa.21286
+    issn: 0002-9483,1096-8644
+  abstract: Limb bone diaphyseal structure is frequently used to infer hominin activity levels from skeletal remains, an approach based on the well-documented ability of bone to adjust to its loading environment during life. However, diaphyseal structure is also determined in part by genetic factors. This study investigates the possibility that genetic variation underlying diaphyseal structure is influenced by the activity levels of ancestral populations and might also have functional significance in an evolutionary context. We adopted an experimental evolution approach and tested for differences in femoral diaphyseal structure in 1-week-old mice from a line that had been artificially selected (45 generations) for high voluntary wheel running and non-selected controls. As adults, selected mice are significantly more active on wheels and in home cages, and have thicker diaphyses. Structural differences at 1 week can be assumed to primarily reflect the effects of selective breeding rather than direct mechanical stimuli, given that the onset of locomotion in mice is shortly after Day 7. We hypothesized that if genetically determined diaphyseal structure reflects the activity patterns of members of a lineage, then selected animals will have relatively larger diaphyseal dimensions at 1 week compared to controls. The results provide strong support for this hypothesis and suggest that limb bone cross sections may not always only reflect the activity levels of particular fossil individuals, but also convey an evolutionary signal providing information about hominin activity in the past.
+  parent:
+    type: periodical
+    title: Am. J. Phys. Anthropol.
+    issue: 1
+    volume: 143
+middleton_selective_2008a:
+  type: article
+  title:
+    value: Selective breeding as a tool to probe skeletal response to high voluntary locomotor activity in mice
+    short: Integr Comp Biol
+  author:
+  - Middleton, Kevin M
+  - Kelly, Scott A
+  - Garland, Theodore, Jr
+  date: 2008
+  page-range: 394-410
+  url: http://dx.doi.org/10.1093/icb/icn057
+  serial-number:
+    doi: 10.1093/icb/icn057
+    issn: 1540-7063
+  abstract: We present a novel mouse-model for the study of skeletal structure and evolution, based on selective breeding for high levels of voluntary wheel running. Whereas traditional models (originally inbred strains, more recently knockouts and transgenics) rely on the study of mutant or laboratory-manipulated phenotypes, we have studied changes in skeletal morphometrics resulting from many generations of artificial selection for high activity in the form of wheel running, in which mice engage voluntarily. Mice from the four replicate High Runner (HR) lines run nearly three times as many revolutions during days 5 and 6 of a 6-day exposure to wheels (1.12 m circumference). We have found significant changes in skeletal dimensions of the hind limbs, including decreased directional asymmetry, larger femoral heads, and wider distal femora. The latter two have been hypothesized as evolutionary adaptations for long-distance locomotion in hominids. Exercise-training studies involving experimental groups with and without access to wheels have shown increased diameters of both femora and tibiafibulae, and suggest genetic effects on trainability (genotype-by-environment interactions). Reanalysis of previously published data on bone masses of hind limbs revealed novel patterns of change in bone mass associated with access to wheels for 2 months. Without access to wheels, HR mice have significantly heavier tibiafibulae and foot bones, whereas with chronic access to wheels, a significant increase in foot bone mass that was linearly related to increases in daily wheel running was observed. Mice exhibiting a recently discovered small-muscle phenotype ("mini-muscle," [MM] caused by a Mendelian recessive gene), in which the mass of the triceps surae muscle complex is ∼50% lower than in normal individuals, have significantly longer and thinner bones in the hind limb. We present new data for the ontogenetic development of muscle mass in Control, HR, and MM phenotypes in mice of 1-7 weeks postnatal age. Statistical comparisons reveal highly significant differences both in triceps surae mass and mass-corrected triceps surae mass between normal and MM mice at all but the postnatal age of 1 week. Based on previously observed differences in distributions of myosin isoforms in adult MM mice, we hypothesize that a reduction of myosin heavy-chain type-IIb isoforms with accounts for our observed ontogenetic changes in muscle mass.
+  parent:
+    type: periodical
+    title: Integr. Comp. Biol.
+    issue: 3
+    volume: 48
+middleton_variation_2010:
+  type: article
+  title: Variation in within-bone stiffness measured by nanoindentation in mice bred for high levels of voluntary wheel running
+  author:
+  - Middleton, Kevin M
+  - Goldstein, Beth D
+  - Guduru, Pradeep R
+  - Waters, Julie F
+  - Kelly, Scott A
+  - Swartz, Sharon M
+  - Garland, T, Jr
+  date: 2010
+  page-range: 121-131
+  url: http://dx.doi.org/10.1111/j.1469-7580.2009.01175.x
+  serial-number:
+    doi: 10.1111/j.1469-7580.2009.01175.x
+    issn: 0021-8782,1469-7580
+  abstract: 'The hierarchical structure of bone, involving micro-scale organization and interaction of material components, is a critical determinant of macro-scale mechanics. Changes in whole-bone morphology in response to the actions of individual genes, physiological loading during life, or evolutionary processes, may be accompanied by alterations in underlying mineralization or architecture. Here, we used nanoindentation to precisely measure compressive stiffness in the femoral mid-diaphysis of mice that had experienced 37 generations of selective breeding for high levels of voluntary wheel running (HR). Mice (n = 48 total), half from HR lines and half from non-selected control (C) lines, were divided into two experimental groups, one with 13-14 weeks of access to a running wheel and one housed without wheels (n = 12 in each group). At the end of the experiment, gross and micro-computed tomography (microCT)-based morphometric traits were measured, and reduced elastic modulus (E(r)) was estimated separately for four anatomical quadrants of the femoral cortex: anterior, posterior, lateral, and medial. Two-way, mixed-model analysis of covariance (ancova) showed that body mass was a highly significant predictor of all morphometric traits and that structural change is more apparent at the microCT level than in conventional morphometrics of whole bones. Both line type (HR vs. C) and presence of the mini-muscle phenotype (caused by a Mendelian recessive allele and characterized by a approximately 50% reduction in mass of the gastrocnemius muscle complex) were significant predictors of femoral cortical cross-sectional anatomy. Measurement of reduced modulus obtained by nanoindentation was repeatable within a single quadrant and sensitive enough to detect inter-individual differences. Although we found no significant effects of line type (HR vs. C) or physical activity (wheel vs. no wheel) on mean stiffness, anterior and posterior quadrants were significantly stiffer (P < 0.0001) than medial and lateral quadrants (32.67 and 33.09 GPa vs. 29.78 and 30.46 GPa, respectively). Our findings of no significant difference in compressive stiffness in the anterior and posterior quadrants agree with previous results for mice, but differ from those for large mammals. Integrating these results with others from ongoing research on these mice, we hypothesize that the skeletons of female HR mice may be less sensitive to the effects of chronic exercise, due to decreased circulating leptin levels and potentially altered endocannabinoid signaling.'
+  parent:
+    type: periodical
+    title: J. Anat.
+    issue: 1
+    volume: 216
+

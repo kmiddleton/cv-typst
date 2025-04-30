@@ -679,75 +679,24 @@
 <publications>
 A full list of my published work can be found at:
 
-== Dissertation
-<dissertation>
-#block[
-] <refs-4d2ccbc27db374207031d714323410b2>
-== Refereed Research Papers
-<refereed-research-papers>
-#block[
-] <refs-b4277c5623bd267764bf2c44fa13c83b>
 #show bibliography: none
-#bibliography("Paperpile.bib")
+#bibliography(("Preprints.yml", "Papers.yml"))
 
-// Keep track of all references, clearing every time a new heading is shown
-#let section-refs = state("section-refs", ())
-
-// Add bibliography references to the current section's state
-#show ref: it => {
-  if it.element != none {
-    // Citing a document element like a figure, not a bib key
-    // So don't update refs
-    it
-    return
+#let display-bibliography(path) = {
+  for (lbl, _) in yaml(path) {
+      block[#cite(label(lbl), form: "full")]
   }
-  section-refs.update(old => {
-    if it.target not in old {
-      old.push(it.target)
-    }
-    old
-  })
-  locate(loc => {
-    let idx = section-refs.at(loc).position(el => el == it.target)
-    "[" + str(idx + 1) + "]"
-  })
 }
 
-// Print the "per-section" bibliography
-#let section-bib() = locate(loc => {
-  let ref-counter = counter("section-refs")
-  ref-counter.update(1)
-  show regex("^\[(\d+)\]\s"): it => [
-    [#ref-counter.display()]
-  ]
-  for target in section-refs.at(loc) {
-    block(cite(target, form: "full"))
-    ref-counter.step()
-  }
-})
+= Preprints
+#display-bibliography("Preprints.yml")
 
-// Clear the previously stored references every time a level 1 heading
-// is created.
-#show heading.where(level: 1): it => {
-  section-refs.update(())
-  it
-}
+#show bibliography: it => [ Empty Bibliography ]
+
+= Papers
+#display-bibliography("Papers.yml")
 
 
 
-= First Section
-My reference @Ward2018-ix and another @Gatesy1999-wj
-
-#section-bib()
-
-= Second Section
-Another reference @Ward2018-ix and another @Gatesy1999-wj, @McGechie2018-sd
-
-#section-bib()
-#block[
-] <3ade8a4a-fb1d-4a6c-8409-ac45482d5fc9>
-
-
-
-#bibliography("Paperpile.bib")
+#set bibliography(style: "apa")
 
